@@ -1,14 +1,72 @@
-<p align="center"><img src="assets/banner.svg" alt="Galaxy API 小红书数据接口：笔记搜索、内容详情、评论、用户资料与蒲公英达人数据" width="100%"></p>
+<p align="center"><img src="assets/banner.svg" alt="Galaxy API 小红书数据采集分析平台：可视化采集、数据整理、分析报告与 API 接入" width="100%"></p>
 
-# Galaxy API｜小红书数据接口
+# Galaxy API｜小红书数据采集分析平台
 
-**把小红书笔记、评论和达人数据接入你的应用。**
+**从采集笔记与评论，到整理数据、研究用户反馈和内容表现。**
 
-Galaxy API 提供小红书 App、Web 及蒲公英数据接口，覆盖笔记搜索、内容详情、评论回复、用户作品与达人数据查询。本仓库提供接入说明、可运行代码和脱敏返回示例，适用于内容检索、评论分析、达人研究与数据看板。
+Galaxy API 是以小红书为核心的数据采集分析平台。你可以在网页工作台输入关键词、笔记链接或用户主页，创建采集任务，在数据中心预览、筛选、合并和导出结果，并按需要提交评论分析或视频内容分析。
 
-**[查看接口文档](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)** · **[注册账号](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)** · **[访问官网](https://galaxysapi.com/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)** · [English](README.en.md)
+平台同时提供小红书 App、Web 及蒲公英 API，覆盖笔记搜索、内容详情、评论回复、用户作品与达人数据查询，方便开发者接入自己的应用。本仓库包含平台功能展示、界面截图、API 接入说明、可运行代码和脱敏返回示例。
 
-## 小红书：从内容发现到达人研究
+**[进入采集工作台](https://galaxysapi.com/platform?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)** · **[查看接口文档](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)** · **[注册账号](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)** · [English](README.en.md)
+
+## 平台能做什么
+
+| 模块 | 平台功能 | 使用场景 |
+| --- | --- | --- |
+| 可视化采集 | 通过表单批量输入关键词、笔记链接或用户主页，按功能配置采集参数 | 笔记搜索、评论采集、博主作品与用户资料整理 |
+| 任务管理 | 查看实时采集进度、结果数量和任务状态；切换页面后通过浮动进度继续查看 | 同时跟进多个采集任务 |
+| 数据中心 | 按类型、名称和日期查找任务，预览表格、正文与互动字段 | 集中管理采集结果 |
+| 筛选与整理 | 全任务搜索、关键词与数值/时间条件筛选、排序，同类型任务合并并按字段去重 | 筛选高互动内容、汇总多批次数据 |
+| 文件与素材 | 导出 CSV、XLSX；支持的任务可预览图片、视频并下载已归档素材 | 本地分析、团队协作、素材研究 |
+| 评论分析 | 从评论任务或本地文件提交数据，查看用户关注点、购买信号、负面顾虑、竞品提及和逐篇诊断 | 美妆、个护类目的用户反馈研究 |
+| 视频内容分析 | 提交小红书视频链接，围绕口播原文、开头、内容主线、产品植入与互动表现进行拆解 | 复盘内容打法，形成下一轮内容 brief |
+| API 接入 | 使用小红书 App、Web 与蒲公英接口，并通过控制台管理密钥和调用记录 | 接入业务系统或自有分析工具 |
+
+**使用流程：选择功能 → 填写参数 → 创建采集任务 → 预览与整理数据 → 导出或提交分析。**
+
+分析报告需提交数据并确认订单，由分析人员处理、复核和交付。评论分析目前面向小红书美妆、个护类目；内容分析目前支持视频口播，图文暂不支持。素材下载等功能以账户权限及实际归档结果为准。
+
+[平台功能详解](docs/platform.md) · [使用指南](https://galaxysapi.com/docs/crawling) · [数据中心](https://galaxysapi.com/data) · [数据分析](https://galaxysapi.com/console/comment-reports)
+
+## 平台界面
+
+以下采集与数据管理截图使用当前平台界面、演示账户和合成任务数据；分析报告截图来自官网已有的公开历史示例，用于展示分析维度。当前可提交的分析范围以上述功能说明为准。
+
+**功能广场：按平台和用途选择采集工具。**
+
+![小红书功能广场：筛选和查找采集工具](assets/screenshots/01-workbench.png)
+
+**数据预览：在表格中查看评论、互动信息，进一步筛选或导出。**
+
+![数据预览：表格、搜索、筛选与下载入口，内容为演示数据](assets/screenshots/04-data-preview.png)
+
+<details>
+<summary>展开查看采集进度、数据中心和分析报告截图</summary>
+
+**批量采集与进度**
+
+![小红书关键词采集：输入参数与进度展示，数据为演示](assets/screenshots/02-collection.png)
+
+**数据中心任务管理**
+
+![数据中心：任务搜索、状态、预览和批量操作，数据为演示](assets/screenshots/03-data-center.png)
+
+**评论分析报告示例**
+
+![小红书评论分析报告公开示例](assets/screenshots/05-comment-report.png)
+
+[打开完整评论报告示例](https://galaxysapi.com/api/reports/sample)
+
+**视频内容分析报告示例**
+
+![小红书视频内容分析报告公开示例](assets/screenshots/06-content-report.png)
+
+[打开完整内容报告示例](https://galaxysapi.com/api/reports/content-sample)
+
+</details>
+
+## 小红书 API：从内容发现到达人研究
 
 | 能力 | 可以获取什么 | 文档 |
 | --- | --- | --- |
@@ -27,7 +85,7 @@ Galaxy API 提供小红书 App、Web 及蒲公英数据接口，覆盖笔记搜�
 - [全部蒲公英接口](https://galaxysapi.com/api-docs/#group-xiaohongshu-pgy)：按场景选择指标与参数。
 - [本地返回示例](examples/responses/pgy_author_info.json)：查看脱敏后的字段结构。
 
-## 快速开始
+## API 快速开始
 
 1. [注册 Galaxy API 账号](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)，完成邮箱验证。
 2. 在控制台的 [API 密钥](https://galaxysapi.com/console/api-keys) 页面创建密钥，并确认账户余额及密钥配额。
@@ -107,9 +165,9 @@ node examples/node/call.mjs pgy --demo
 
 各接口的 `data` 结构可能不同。完整字段及更多示例请查看对应的 [API 文档](https://galaxysapi.com/api-docs/)。
 
-## 开通与接入
+## 开通与使用
 
-[注册并创建密钥](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [查看接入文档](https://galaxysapi.com/api-docs/) · [控制台](https://galaxysapi.com/console/dashboard)
+[注册账号](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [打开工作台](https://galaxysapi.com/platform) · [查看接入文档](https://galaxysapi.com/api-docs/) · [控制台](https://galaxysapi.com/console/dashboard)
 
 ## 配套接口
 
