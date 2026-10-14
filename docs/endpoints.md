@@ -1,6 +1,6 @@
 # 接口目录
 
-按 2026-10-14 的公开 API 文档整理。小红书 App、Web 和蒲公英优先列出，其他平台在下方。最新参数、价格和可用情况以 [在线文档](https://galaxysapi.com/api-docs/) 为准。
+按 2026-10-14 的公开 API 文档整理。小红书 App、Web 和蒲公英优先列出，其他平台在下方。最新参数和可用情况以 [在线文档](https://galaxysapi.com/api-docs/) 为准。
 
 下面的路径均以 `https://api.galaxysapi.com` 为前缀，通过 `Authorization` 请求头传入完整 API Key。
 

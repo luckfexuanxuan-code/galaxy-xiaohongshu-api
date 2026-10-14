@@ -33,7 +33,7 @@ python3 examples/python/call.py user --user_id YOUR_USER_ID
 node examples/node/call.mjs pgy --user_id YOUR_USER_ID
 ```
 
-每次在线运行只调用一次，按账户价格计费。不会自动重试或连续翻页。
+每次在线运行只调用一次，按平台规则计费。不会自动重试或连续翻页。
 
 ## CSV 导出（Python）
 

@@ -2,7 +2,7 @@ blank_issues_enabled: true
 contact_links:
   - name: Galaxy API 文档
     url: https://galaxysapi.com/api-docs/
-    about: 查看接口参数、价格和返回示例
+    about: 查看接口参数和返回示例
   - name: 账户与计费支持
     url: https://galaxysapi.com/
     about: 登录平台后通过客服处理账户、余额和付款问题

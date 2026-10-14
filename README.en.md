@@ -43,7 +43,7 @@ node examples/node/call.mjs note --note_id YOUR_NOTE_ID
 bash examples/curl/search.sh coffee
 ```
 
-Each command makes one request. There is no automatic retry or pagination. API requests are billed at your account's applicable rates; using the example code itself is free.
+Each command makes one request. There is no automatic retry or pagination. API requests are billed according to the platform's terms; using the example code itself is free.
 
 For an offline preview, no key or network request is needed:
 
@@ -58,19 +58,9 @@ node examples/node/call.mjs pgy --demo
 
 The [response directory](examples/responses) contains sanitized, shortened excerpts derived from the published documentation. IDs, names and content are demonstration values; these files are not live results. Response structures vary by endpoint. Both clients check HTTP status and top-level business errors before treating a response as successful.
 
-## Pricing
+## Get access
 
-Public default prices checked on **October 14, 2026**, in CNY per request:
-
-| Endpoint | Default price |
-| --- | ---: |
-| Xiaohongshu note search V1 | ¥0.03 |
-| Xiaohongshu note details V1 | ¥0.03 |
-| Xiaohongshu top-level comments V1 | ¥0.03 |
-| Xiaohongshu user profile V1 | ¥0.03 |
-| Pugongying creator profile | ¥0.04 |
-
-Your account-specific price is shown in the console. See [current pricing](https://galaxysapi.com/api-docs/#pricing) and [registration](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu).
+[Create an account](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [Read the documentation](https://galaxysapi.com/api-docs/) · [Open the console](https://galaxysapi.com/console/dashboard)
 
 ## Companion platforms
 

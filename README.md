@@ -46,7 +46,7 @@ curl --get 'https://api.galaxysapi.com/api/search_note_v1' \
   --connect-timeout 10 --max-time 60 --fail-with-body
 ```
 
-API 调用按账户对应单价计费；示例代码本身不收费。以下脚本每次运行只请求一页，不自动重试或连续翻页。
+API 调用按平台规则计费；示例代码本身不收费。以下脚本每次运行只请求一页，不自动重试或连续翻页。
 
 ### Python / Node.js
 
@@ -107,19 +107,9 @@ node examples/node/call.mjs pgy --demo
 
 各接口的 `data` 结构可能不同。完整字段及更多示例请查看对应的 [API 文档](https://galaxysapi.com/api-docs/)。
 
-## 价格与开通
+## 开通与接入
 
-以下为 **2026-10-14 核对的公开默认价格**，单位为人民币元/次；账户实际价格以控制台为准。
-
-| 接口 | 公开默认单价 |
-| --- | ---: |
-| 小红书笔记搜索 V1 | ¥0.03 |
-| 小红书笔记详情 V1 | ¥0.03 |
-| 小红书一级评论 V1 | ¥0.03 |
-| 小红书用户信息 V1 | ¥0.03 |
-| 蒲公英作者信息 | ¥0.04 |
-
-[查看完整定价](https://galaxysapi.com/api-docs/#pricing) · [注册并创建密钥](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [控制台](https://galaxysapi.com/console/dashboard)
+[注册并创建密钥](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [查看接入文档](https://galaxysapi.com/api-docs/) · [控制台](https://galaxysapi.com/console/dashboard)
 
 ## 配套接口
 
@@ -133,7 +123,7 @@ node examples/node/call.mjs pgy --demo
 ## 反馈与维护
 
 - 接入或示例问题：提交 [Issue](https://github.com/luckfexuanxuan-code/galaxy-xiaohongshu-api/issues)，附接口名、时间、状态码和脱敏后的错误说明。
-- 价格、余额、密钥等账户事项：登录 [Galaxy API](https://galaxysapi.com/) 后通过平台客服处理。不要在 Issue 中提交 API Key 或账户信息。
+- 余额、密钥等账户事项：登录 [Galaxy API](https://galaxysapi.com/) 后通过平台客服处理。不要在 Issue 中提交 API Key 或账户信息。
 - 版本记录：[CHANGELOG](CHANGELOG.md)。示例代码采用 [MIT License](LICENSE)；API 服务按平台规则计费。
 
 Galaxy API 为独立服务，与小红书、抖音、哔哩哔哩不存在官方隶属关系。请在获得所需授权的范围内使用数据。
