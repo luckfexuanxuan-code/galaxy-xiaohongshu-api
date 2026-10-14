@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" role="img" aria-labelledby="title desc">
+  <title id="title">Galaxy API 小红书数据接口</title>
+  <desc id="desc">笔记搜索、内容详情、评论与回复、用户资料、蒲公英达人数据。小红书 App / Web / 蒲公英。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1527"/><stop offset="1" stop-color="#152b36"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#6ce6ce"/><stop offset="1" stop-color="#88d8ff"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#44bca3" stop-opacity=".17"/><stop offset="1" stop-color="#44bca3" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1280" height="460" rx="20" fill="url(#bg)"/>
+  <circle cx="1080" cy="180" r="310" fill="url(#glow)"/>
+  <g fill="none" stroke="#82d8ce" stroke-opacity=".13"><circle cx="1110" cy="214" r="158"/><circle cx="1110" cy="214" r="205"/><circle cx="1110" cy="214" r="252"/></g>
+  <g fill="#9ae6d7"><circle cx="1010" cy="89" r="4"/><circle cx="1198" cy="346" r="3"/><circle cx="920" cy="281" r="3"/></g>
+  <g font-family="Inter,Arial,'Noto Sans CJK SC','Microsoft YaHei',sans-serif">
+    <rect x="62" y="52" width="34" height="34" rx="10" fill="url(#accent)"/>
+    <path d="M70 70h18M79 61v18" stroke="#102838" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="108" y="78" fill="#eaf7f7" font-size="26" font-weight="700" letter-spacing="1">GALAXY API</text>
+    <text x="62" y="184" fill="#ffffff" font-size="62" font-weight="700">小红书数据接口</text>
+    <text x="65" y="232" fill="#a9c2ce" font-size="23">把内容与达人数据，接入你的应用。</text>
+    <g font-size="17" fill="#c9e6e4">
+      <rect x="64" y="273" width="150" height="40" rx="20" fill="#203e48"/><text x="139" y="299" text-anchor="middle">小红书 App</text>
+      <rect x="226" y="273" width="150" height="40" rx="20" fill="#203e48"/><text x="301" y="299" text-anchor="middle">小红书 Web</text>
+      <rect x="388" y="273" width="176" height="40" rx="20" fill="#203e48"/><text x="476" y="299" text-anchor="middle">蒲公英达人数据</text>
+    </g>
+    <line x1="64" y1="348" x2="1216" y2="348" stroke="#aecbd4" stroke-opacity=".18"/>
+    <text x="64" y="397" fill="#c2d3db" font-size="18">笔记搜索 / 内容详情 / 评论与回复 / 用户资料</text>
+    <text x="1216" y="397" text-anchor="end" fill="#7cdcc9" font-size="19">galaxysapi.com</text>
+  </g>
+</svg>

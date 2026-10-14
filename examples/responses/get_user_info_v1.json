@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "message": "成功",
+  "data": {
+    "userid": "EXAMPLE_USER_ID",
+    "nickname": "示例用户",
+    "desc": "示例内容",
+    "fans": 1177025,
+    "follows": 350,
+    "liked": 5204955,
+    "collected": 890567,
+    "note_num_stat": {
+      "liked": 5204955,
+      "collected": 890567,
+      "posted": 460
+    }
+  }
+}

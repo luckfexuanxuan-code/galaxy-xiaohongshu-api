@@ -1,0 +1,26 @@
+name: 接入或示例问题
+description: 反馈文档、示例代码或接口接入问题
+title: "[接入问题] "
+body:
+  - type: markdown
+    attributes:
+      value: 请先移除 API Key、账户信息及个人数据。余额和付款问题请通过 Galaxy API 平台客服处理。
+  - type: input
+    id: endpoint
+    attributes:
+      label: 接口或示例命令
+      placeholder: search_note_v1 / python3 examples/python/call.py search
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 复现步骤
+      description: 请注明运行环境、时间、期望结果和实际结果。
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: 脱敏错误信息
+      description: 状态码和错误说明即可，不要粘贴密钥或完整用户数据。

@@ -1,0 +1,22 @@
+{
+  "code": 200,
+  "message": "成功",
+  "data": {
+    "status_code": 0,
+    "aweme_detail": {
+      "aweme_id": "EXAMPLE_AWEME_ID",
+      "desc": "示例内容",
+      "create_time": 1734150565,
+      "author": {
+        "uid": "EXAMPLE_USER_ID",
+        "nickname": "示例用户"
+      },
+      "statistics": {
+        "digg_count": 4566,
+        "comment_count": 57,
+        "collect_count": 2555,
+        "share_count": 343
+      }
+    }
+  }
+}

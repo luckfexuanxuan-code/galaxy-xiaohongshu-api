@@ -1,0 +1,24 @@
+{
+  "code": 200,
+  "message": "成功",
+  "data": {
+    "items": [
+      {
+        "model_type": "note",
+        "note": {
+          "id": "EXAMPLE_NOTE_ID",
+          "title": "示例笔记标题",
+          "type": "normal",
+          "liked_count": 381,
+          "comments_count": 95,
+          "collected_count": 348,
+          "user": {
+            "userid": "EXAMPLE_USER_ID",
+            "nickname": "示例用户"
+          }
+        }
+      }
+    ],
+    "search_request_id": "REDACTED"
+  }
+}

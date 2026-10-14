@@ -1,0 +1,23 @@
+{
+  "code": 200,
+  "message": "成功",
+  "data": {
+    "has_more": true,
+    "cursor": "REDACTED",
+    "comment_count": 132,
+    "comments": [
+      {
+        "id": "EXAMPLE_NOTE_ID",
+        "note_id": "EXAMPLE_NOTE_ID",
+        "content": "示例内容",
+        "like_count": 1,
+        "sub_comment_count": 3,
+        "sub_comments": [],
+        "user": {
+          "userid": "EXAMPLE_USER_ID",
+          "nickname": "示例用户"
+        }
+      }
+    ]
+  }
+}

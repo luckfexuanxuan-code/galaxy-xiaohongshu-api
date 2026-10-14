@@ -1,0 +1,28 @@
+{
+  "code": 200,
+  "message": "成功",
+  "data": {
+    "message": "OK",
+    "ttl": 1,
+    "data": {
+      "aid": 0,
+      "bvid": "EXAMPLE_BV_ID",
+      "title": "示例笔记标题",
+      "desc": "示例内容",
+      "duration": 1586,
+      "owner": {
+        "mid": 0,
+        "name": "示例用户"
+      },
+      "stat": {
+        "view": 776405,
+        "danmaku": 1348,
+        "reply": 1247,
+        "favorite": 2723,
+        "coin": 3493,
+        "share": 1108,
+        "like": 25682
+      }
+    }
+  }
+}

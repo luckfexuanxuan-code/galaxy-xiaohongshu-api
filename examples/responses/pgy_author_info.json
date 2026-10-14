@@ -1,0 +1,14 @@
+{
+  "code": 200,
+  "message": "成功",
+  "data": {
+    "userId": "EXAMPLE_USER_ID",
+    "name": "示例用户",
+    "redId": "EXAMPLE_USER_ID",
+    "fansCount": 2408194,
+    "likeCollectCountInfo": 23597691,
+    "businessNoteCount": 213,
+    "picturePrice": 200000,
+    "videoPrice": 320000
+  }
+}

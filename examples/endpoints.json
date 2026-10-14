@@ -1,0 +1,110 @@
+{
+  "search": {
+    "id": "search_note_v1",
+    "title": "小红书笔记搜索V1",
+    "path": "/api/search_note_v1",
+    "parameters": [
+      "keyword",
+      "page",
+      "page_size",
+      "sort",
+      "note_type",
+      "note_range",
+      "note_time",
+      "search_id",
+      "session_id"
+    ],
+    "required": [
+      "keyword"
+    ],
+    "defaults": {
+      "page": "1",
+      "page_size": "20",
+      "sort": "general",
+      "note_range": "不限",
+      "note_time": "不限",
+      "keyword": "咖啡"
+    }
+  },
+  "note": {
+    "id": "get_note_detail_v1",
+    "title": "小红书笔记详情V1",
+    "path": "/api/get_note_detail_v1",
+    "parameters": [
+      "note_id",
+      "node_type"
+    ],
+    "required": [
+      "note_id"
+    ],
+    "defaults": {
+      "node_type": "images"
+    }
+  },
+  "comments": {
+    "id": "get_note_comment_v1",
+    "title": "小红书一级评论V1",
+    "path": "/api/get_note_comment_v1",
+    "parameters": [
+      "note_id",
+      "num",
+      "sort",
+      "cursor"
+    ],
+    "required": [
+      "note_id"
+    ],
+    "defaults": {
+      "num": "15"
+    }
+  },
+  "user": {
+    "id": "get_user_info_v1",
+    "title": "小红书用户信息V1",
+    "path": "/api/get_user_info_v1",
+    "parameters": [
+      "user_id"
+    ],
+    "required": [
+      "user_id"
+    ],
+    "defaults": {}
+  },
+  "pgy": {
+    "id": "pgy_author_info",
+    "title": "蒲公英作者信息",
+    "path": "/api/pgy_author_info",
+    "parameters": [
+      "user_id"
+    ],
+    "required": [
+      "user_id"
+    ],
+    "defaults": {}
+  },
+  "douyin": {
+    "id": "douyin_video_detail",
+    "title": "抖音视频详情",
+    "path": "/api/douyin_video_detail",
+    "parameters": [
+      "aweme_id"
+    ],
+    "required": [
+      "aweme_id"
+    ],
+    "defaults": {}
+  },
+  "bilibili": {
+    "id": "bilibili_video_detail",
+    "title": "哔哩哔哩App视频详情",
+    "path": "/api/bilibili_video_detail",
+    "parameters": [
+      "bv_id",
+      "av_id"
+    ],
+    "required": [
+      "bv_id"
+    ],
+    "defaults": {}
+  }
+}
