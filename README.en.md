@@ -114,8 +114,6 @@ The [response directory](examples/responses) contains sanitized, shortened excer
 
 [Create an account](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [Read the documentation](https://galaxysapi.com/api-docs/) · [Open the console](https://galaxysapi.com/console/dashboard)
 
-## Support and license
+## Support
 
 Report example-code issues through [Issues](https://github.com/luckfexuanxuan-code/galaxy-xiaohongshu-api/issues). Include the endpoint, time and sanitized error, never API keys or account information. For account and billing questions, use support in the [Galaxy API platform](https://galaxysapi.com/).
-
-Example code is provided under the [MIT License](LICENSE).

@@ -175,4 +175,3 @@ node examples/node/call.mjs pgy --demo
 
 - 接入或示例问题：提交 [Issue](https://github.com/luckfexuanxuan-code/galaxy-xiaohongshu-api/issues)，附接口名、时间、状态码和脱敏后的错误说明。
 - 余额、密钥等账户事项：登录 [Galaxy API](https://galaxysapi.com/) 后通过平台客服处理。不要在 Issue 中提交 API Key 或账户信息。
-- 示例代码采用 [MIT License](LICENSE)；API 服务按平台规则计费。
