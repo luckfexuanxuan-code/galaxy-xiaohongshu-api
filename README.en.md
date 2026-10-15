@@ -4,9 +4,9 @@
 
 **Collect Xiaohongshu data, organize results, and understand audience feedback and content performance.**
 
-Galaxy API is a data collection and analysis platform focused on Xiaohongshu (小红书 / RedNote / XHS). Use the web workbench to create collection tasks from keywords, note links or user profiles, organize results in Data Center, and submit comment or video content analysis requests.
+Galaxy API is a Xiaohongshu (小红书 / RedNote / XHS) data collection and analysis platform for content teams, brand researchers and developers. Create collection tasks from keywords, note links or user profiles in the web workbench, then preview, filter, merge and export the results in Data Center.
 
-Developers can also use the Xiaohongshu App, Web and Pugongying APIs to integrate note searches, content details, comments, user profiles and creator data into their own applications. This repository includes platform screenshots, feature guides, runnable API examples and sanitized response excerpts.
+The platform supports note searches, comment collection, creator works and user profiles. Export results to Excel or CSV, and submit comment or video content analysis requests as needed. This repository provides platform features, screenshots, practical guides and API integration examples.
 
 **[Open the workbench](https://galaxysapi.com/platform?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)** · **[API documentation](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)** · **[Create an account](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)** · [简体中文](README.md)
 
@@ -26,6 +26,17 @@ Developers can also use the Xiaohongshu App, Web and Pugongying APIs to integrat
 **Workflow: choose a tool → provide inputs → collect data → preview and organize → export or request analysis.**
 
 [Platform guide (Chinese)](docs/platform.md) · [Data Center](https://galaxysapi.com/data?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [Data analysis](https://galaxysapi.com/console/comment-reports?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
+
+## Xiaohongshu practical guides
+
+The following public guides support Chinese and English through the page language selector.
+
+| Guide | What you will learn |
+| --- | --- |
+| [Comment collection](https://galaxysapi.com/guides/xiaohongshu-comment-collection?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | Prepare note links, configure collection, preview and export comments |
+| [Excel and CSV export](https://galaxysapi.com/guides/xiaohongshu-excel-export?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | Search notes, filter records, merge batches and deduplicate results |
+| [Comment analysis](https://galaxysapi.com/guides/xiaohongshu-comment-analysis?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | Prepare samples, submit reports and study audience concerns and purchase signals |
+| [API integration](https://galaxysapi.com/guides/xiaohongshu-api-integration?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | Configure API keys, search notes and retrieve details and comments |
 
 ## Platform screenshots
 

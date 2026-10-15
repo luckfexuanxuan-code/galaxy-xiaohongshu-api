@@ -4,9 +4,9 @@
 
 **从采集笔记与评论，到整理数据、研究用户反馈和内容表现。**
 
-Galaxy API 是以小红书为核心的数据采集分析平台。你可以在网页工作台输入关键词、笔记链接或用户主页，创建采集任务，在数据中心预览、筛选、合并和导出结果，并按需要提交评论分析或视频内容分析。
+Galaxy API 是面向小红书运营、品牌研究和开发者的数据采集分析平台。通过网页工作台输入关键词、笔记链接或用户主页，即可创建采集任务，并在数据中心预览、筛选、合并和导出结果。
 
-平台同时提供小红书 App、Web 及蒲公英 API，覆盖笔记搜索、内容详情、评论回复、用户作品与达人数据查询，方便开发者接入自己的应用。本仓库包含平台功能展示、界面截图、API 接入说明、可运行代码和脱敏返回示例。
+平台支持小红书笔记搜索、评论采集、博主作品与用户资料整理，可将采集结果导出为 Excel 或 CSV，并按需要提交评论分析、视频内容分析。本仓库提供平台功能介绍、操作截图、使用教程及 API 调用示例。
 
 **[进入采集工作台](https://galaxysapi.com/platform?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)** · **[查看接口文档](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)** · **[注册账号](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)** · [English](README.en.md)
 
@@ -26,6 +26,15 @@ Galaxy API 是以小红书为核心的数据采集分析平台。你可以在网
 **使用流程：选择功能 → 填写参数 → 创建采集任务 → 预览与整理数据 → 导出或提交分析。**
 
 [平台功能详解](docs/platform.md) · [使用指南](https://galaxysapi.com/docs/crawling?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [数据中心](https://galaxysapi.com/data?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [数据分析](https://galaxysapi.com/console/comment-reports?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
+
+## 小红书使用教程
+
+| 教程 | 内容 |
+| --- | --- |
+| [小红书评论采集](https://galaxysapi.com/guides/xiaohongshu-comment-collection?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | 准备笔记链接、配置采集范围、预览和导出评论 |
+| [小红书笔记导出 Excel](https://galaxysapi.com/guides/xiaohongshu-excel-export?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | 搜索笔记、筛选数据、合并去重并导出 CSV/XLSX |
+| [小红书评论分析](https://galaxysapi.com/guides/xiaohongshu-comment-analysis?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | 准备样本、提交报告、研究用户关注点与购买信号 |
+| [小红书 API 接入教程](https://galaxysapi.com/guides/xiaohongshu-api-integration?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | 设置 API Key、调用笔记搜索、读取详情与评论 |
 
 ## 平台界面
 
