@@ -38,7 +38,7 @@ Galaxy API 是以小红书为核心的数据采集分析平台。你可以在网
 ![数据预览：维多利亚港搜索任务的真实笔记数据](assets/screenshots/04-data-preview.png)
 
 <details>
-<summary>展开查看采集进度、数据中心和分析报告截图</summary>
+<summary>展开查看采集进度、数据中心和分析报告</summary>
 
 **批量采集与进度**
 
