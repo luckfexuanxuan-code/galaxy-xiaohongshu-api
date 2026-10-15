@@ -114,12 +114,8 @@ The [response directory](examples/responses) contains sanitized, shortened excer
 
 [Create an account](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [Read the documentation](https://galaxysapi.com/api-docs/) · [Open the console](https://galaxysapi.com/console/dashboard)
 
-## Companion platforms
-
-The same service also provides [Douyin](https://galaxysapi.com/api-docs/#group-douyin-app) and [Bilibili](https://galaxysapi.com/api-docs/#group-bilibili-app) video, comment, user and search APIs. Xiaohongshu remains the focus of this repository.
-
 ## Support and license
 
 Report example-code issues through [Issues](https://github.com/luckfexuanxuan-code/galaxy-xiaohongshu-api/issues). Include the endpoint, time and sanitized error, never API keys or account information. For account and billing questions, use support in the [Galaxy API platform](https://galaxysapi.com/).
 
-Example code is provided under the [MIT License](LICENSE). Galaxy API is an independent service and is not officially affiliated with Xiaohongshu, Douyin or Bilibili. Use data within the scope of your authorization.
+Example code is provided under the [MIT License](LICENSE).

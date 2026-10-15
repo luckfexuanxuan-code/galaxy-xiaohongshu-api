@@ -171,19 +171,8 @@ node examples/node/call.mjs pgy --demo
 
 [注册账号](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [打开工作台](https://galaxysapi.com/platform) · [查看接入文档](https://galaxysapi.com/api-docs/) · [控制台](https://galaxysapi.com/console/dashboard)
 
-## 配套接口
-
-在小红书之外，同一平台还提供：
-
-- **抖音**：视频详情、评论与回复、用户资料、作品列表和搜索。[文档](https://galaxysapi.com/api-docs/#group-douyin-app)
-- **哔哩哔哩**：视频详情、评论与回复、用户资料、作品列表和搜索。[文档](https://galaxysapi.com/api-docs/#group-bilibili-app)
-
-对应运行命令见 [示例说明](examples/README.md)，完整接口见 [接口目录](docs/endpoints.md)。
-
 ## 反馈与维护
 
 - 接入或示例问题：提交 [Issue](https://github.com/luckfexuanxuan-code/galaxy-xiaohongshu-api/issues)，附接口名、时间、状态码和脱敏后的错误说明。
 - 余额、密钥等账户事项：登录 [Galaxy API](https://galaxysapi.com/) 后通过平台客服处理。不要在 Issue 中提交 API Key 或账户信息。
-- 版本记录：[CHANGELOG](CHANGELOG.md)。示例代码采用 [MIT License](LICENSE)；API 服务按平台规则计费。
-
-Galaxy API 为独立服务，与小红书、抖音、哔哩哔哩不存在官方隶属关系。请在获得所需授权的范围内使用数据。
+- 示例代码采用 [MIT License](LICENSE)；API 服务按平台规则计费。

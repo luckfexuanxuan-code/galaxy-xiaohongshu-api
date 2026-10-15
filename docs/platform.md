@@ -56,11 +56,9 @@ Galaxy API 将网页采集工具、数据管理、分析报告和 API 接入放�
 
 评论与内容报告均在提交数据、确认订单后，由分析人员处理、复核和交付。可在 [控制台 → 数据分析](https://galaxysapi.com/console/comment-reports) 跟踪状态、查看和下载已交付文件。
 
-## 6. 开发者接入与配套能力
+## 6. 开发者接入
 
 小红书 App、Web 和蒲公英接口用于连接自有业务系统。仓库中的 Python、Node.js、cURL 示例提供请求方式、参数传递和响应检查；控制台提供密钥管理与调用记录。
-
-抖音采集和内容分析，以及哔哩哔哩 API，作为配套能力提供。各平台的工作台功能和 API 范围以实际页面为准。
 
 [API 快速开始](quickstart.md) · [接口目录](endpoints.md) · [运行示例](../examples/README.md)
 
