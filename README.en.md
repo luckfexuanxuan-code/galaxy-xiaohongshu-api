@@ -31,15 +31,17 @@ Reports are processed, reviewed and delivered by analysts after submission and o
 
 ## Platform screenshots
 
-Collection and data-management screenshots show the current UI with a synthetic account and task data. Report screenshots come from previously published examples and illustrate analysis dimensions; current submission eligibility is described above. The screenshots use the Chinese interface.
+Collection and data-management screenshots show the current UI with a demo account. The data preview uses actual results from a Victoria Harbour search task; other collection and task-list screenshots use synthetic data. Report screenshots come from previously published examples and illustrate analysis dimensions; current submission eligibility is described above. The screenshots use the Chinese interface.
 
 **Choose a Xiaohongshu collection tool.**
 
 ![Xiaohongshu collection workbench](assets/screenshots/01-workbench.png)
 
-**Preview, search, filter and export collected records.**
+**Preview note titles, text, images and engagement; search, filter and export collected records.**
 
-![Data preview with synthetic comment data](assets/screenshots/04-data-preview.png)
+![Data preview with actual notes from a Victoria Harbour search task](assets/screenshots/04-data-preview.png)
+
+Task: `search_20261004192802_c39f`, keyword “维多利亚港” (Victoria Harbour), 20 notes.
 
 <details>
 <summary>View collection progress, Data Center and analysis reports</summary>
