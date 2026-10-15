@@ -1,12 +1,12 @@
-<p align="center"><img src="assets/banner.svg" alt="Galaxy API — Xiaohongshu Data Collection and Analysis Platform" width="100%"></p>
+<p align="center"><img src="assets/banner.svg" alt="Galaxy API — Media Data Collection and Analysis Platform" width="100%"></p>
 
-# Galaxy API — Xiaohongshu Data Collection and Analysis Platform
+# Galaxy API — Media Data Collection and Analysis Platform
 
-**Collect Xiaohongshu data, organize results, and understand audience feedback and content performance.**
+**Collect media data, organize results, and understand audience feedback and content performance.**
 
-Galaxy API is a Xiaohongshu (小红书 / RedNote / XHS) data collection and analysis platform for content teams, brand researchers and developers. Create collection tasks from keywords, note links or user profiles in the web workbench, then preview, filter, merge and export the results in Data Center.
+Galaxy API is a media data collection and analysis platform for content teams, brand researchers and developers. Create collection tasks from keywords, note links or user profiles in the web workbench, then preview, filter, merge and export the results in Data Center.
 
-The platform supports note searches, comment collection, creator works and user profiles. Export results to Excel or CSV, and submit comment or video content analysis requests as needed. This repository provides platform features, screenshots, practical guides and API integration examples.
+The platform supports note searches, comment collection, creator works and user profiles. Export results to Excel or CSV, and submit comment or video content analysis requests as needed. This repository focuses on Xiaohongshu (小红书 / RedNote / XHS) use cases, with platform features, screenshots, practical guides and API integration examples.
 
 **[Open the workbench](https://galaxysapi.com/platform?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)** · **[API documentation](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)** · **[Create an account](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)** · [简体中文](README.md)
 

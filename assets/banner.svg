@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" role="img" aria-labelledby="title desc">
-  <title id="title">Galaxy API 小红书数据采集分析平台</title>
+  <title id="title">Galaxy API 自媒体数据采集分析平台</title>
   <desc id="desc">可视化采集、任务管理、数据整理、评论与视频内容分析，以及小红书 App、Web、蒲公英 API 接入。</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1527"/><stop offset="1" stop-color="#152b36"/></linearGradient>
@@ -14,7 +14,7 @@
     <rect x="62" y="52" width="34" height="34" rx="10" fill="url(#accent)"/>
     <path d="M70 70h18M79 61v18" stroke="#102838" stroke-width="2.5" stroke-linecap="round"/>
     <text x="108" y="78" fill="#eaf7f7" font-size="26" font-weight="700" letter-spacing="1">GALAXY API</text>
-    <text x="62" y="184" fill="#ffffff" font-size="60" font-weight="700">小红书数据采集分析平台</text>
+    <text x="62" y="184" fill="#ffffff" font-size="60" font-weight="700">自媒体数据采集分析平台</text>
     <text x="65" y="232" fill="#a9c2ce" font-size="23">从数据采集，到内容与用户反馈分析。</text>
     <g font-size="17" fill="#c9e6e4">
       <rect x="64" y="273" width="150" height="40" rx="20" fill="#203e48"/><text x="139" y="299" text-anchor="middle">可视化采集</text>
