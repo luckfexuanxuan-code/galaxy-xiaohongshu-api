@@ -37,18 +37,16 @@ Galaxy API 是以小红书为核心的数据采集分析平台。你可以在网
 
 ![数据预览：维多利亚港搜索任务的真实笔记数据](assets/screenshots/04-data-preview.png)
 
-截图任务：`search_20261004192802_c39f`，关键词“维多利亚港”，共 20 条笔记。
-
 <details>
 <summary>展开查看采集进度、数据中心和分析报告截图</summary>
 
 **批量采集与进度**
 
-![小红书关键词采集：输入参数与进度展示，数据为演示](assets/screenshots/02-collection.png)
+![小红书关键词采集：输入参数与进度展示](assets/screenshots/02-collection.png)
 
 **数据中心任务管理**
 
-![数据中心：任务搜索、状态、预览和批量操作，数据为演示](assets/screenshots/03-data-center.png)
+![数据中心：任务搜索、状态、预览和批量操作](assets/screenshots/03-data-center.png)
 
 **评论分析报告示例**
 
