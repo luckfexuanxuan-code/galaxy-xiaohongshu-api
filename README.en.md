@@ -25,13 +25,9 @@ Developers can also use the Xiaohongshu App, Web and Pugongying APIs to integrat
 
 **Workflow: choose a tool → provide inputs → collect data → preview and organize → export or request analysis.**
 
-Reports are processed, reviewed and delivered by analysts after submission and order confirmation. Comment analysis currently focuses on Xiaohongshu beauty and personal care; content analysis supports spoken video content, with image posts currently unsupported. Media downloads depend on account permissions and archive availability.
-
 [Platform guide (Chinese)](docs/platform.md) · [Data Center](https://galaxysapi.com/data?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [Data analysis](https://galaxysapi.com/console/comment-reports?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
 
 ## Platform screenshots
-
-Collection and data-management screenshots show the current UI with a demo account. The data preview uses actual results from a Victoria Harbour search task; other collection and task-list screenshots use synthetic data. Report screenshots come from previously published examples and illustrate analysis dimensions; current submission eligibility is described above. The screenshots use the Chinese interface.
 
 **Choose a Xiaohongshu collection tool.**
 
@@ -41,18 +37,24 @@ Collection and data-management screenshots show the current UI with a demo accou
 
 ![Data preview with actual notes from a Victoria Harbour search task](assets/screenshots/04-data-preview.png)
 
-Task: `search_20261004192802_c39f`, keyword “维多利亚港” (Victoria Harbour), 20 notes.
-
 <details>
 <summary>View collection progress, Data Center and analysis reports</summary>
 
-![Collection parameters and simulated progress](assets/screenshots/02-collection.png)
+**Batch collection and progress**
 
-![Data Center with synthetic tasks](assets/screenshots/03-data-center.png)
+![Xiaohongshu keyword collection: parameters and progress](assets/screenshots/02-collection.png)
+
+**Task management in Data Center**
+
+![Data Center: task search, status, preview and batch actions](assets/screenshots/03-data-center.png)
+
+**Comment analysis report example**
 
 ![Published comment analysis report example](assets/screenshots/05-comment-report.png)
 
 [Open the comment report example](https://galaxysapi.com/api/reports/sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
+
+**Video content analysis report example**
 
 ![Published video content analysis report example](assets/screenshots/06-content-report.png)
 
