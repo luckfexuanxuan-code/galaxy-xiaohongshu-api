@@ -2,7 +2,7 @@
 
 Galaxy API 将网页采集工具、数据管理、分析报告和 API 接入放在同一平台。内容研究、运营和分析人员可以通过界面完成采集与整理，开发者则可以调用接口连接自己的系统。
 
-[进入工作台](https://galaxysapi.com/platform?utm_source=github&utm_medium=docs&utm_campaign=xiaohongshu) · [注册账号](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=docs&utm_campaign=xiaohongshu) · [API 文档](https://galaxysapi.com/api-docs/)
+[进入工作台](https://galaxysapi.com/platform?utm_source=github&utm_medium=docs&utm_campaign=xiaohongshu) · [注册账号](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=docs&utm_campaign=xiaohongshu) · [API 文档](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=docs&utm_campaign=xiaohongshu)
 
 ## 1. 选择工具，批量采集
 
@@ -42,7 +42,7 @@ Galaxy API 将网页采集工具、数据管理、分析报告和 API 接入放�
 
 ![评论分析报告公开示例](../assets/screenshots/05-comment-report.png)
 
-[查看完整评论报告示例](https://galaxysapi.com/api/reports/sample)
+[查看完整评论报告示例](https://galaxysapi.com/api/reports/sample?utm_source=github&utm_medium=docs&utm_campaign=xiaohongshu)
 
 ## 5. 视频内容分析：复盘表达方式
 
@@ -52,9 +52,9 @@ Galaxy API 将网页采集工具、数据管理、分析报告和 API 接入放�
 
 ![视频内容分析报告公开示例](../assets/screenshots/06-content-report.png)
 
-[查看完整内容报告示例](https://galaxysapi.com/api/reports/content-sample)
+[查看完整内容报告示例](https://galaxysapi.com/api/reports/content-sample?utm_source=github&utm_medium=docs&utm_campaign=xiaohongshu)
 
-评论与内容报告均在提交数据、确认订单后，由分析人员处理、复核和交付。可在 [控制台 → 数据分析](https://galaxysapi.com/console/comment-reports) 跟踪状态、查看和下载已交付文件。
+评论与内容报告均在提交数据、确认订单后，由分析人员处理、复核和交付。可在 [控制台 → 数据分析](https://galaxysapi.com/console/comment-reports?utm_source=github&utm_medium=docs&utm_campaign=xiaohongshu) 跟踪状态、查看和下载已交付文件。
 
 ## 6. 开发者接入
 

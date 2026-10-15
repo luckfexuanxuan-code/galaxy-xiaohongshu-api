@@ -36,4 +36,4 @@ HTTP 200 并不总是意味着业务成功。脚本同时检查顶层 `code` 与
 
 [提交 Issue](https://github.com/luckfexuanxuan-code/galaxy-xiaohongshu-api/issues) 时附上接口名、时间、运行命令（隐藏密钥）和脱敏错误信息。账户及付款问题请通过平台客服处理。
 
-[完整响应说明](https://galaxysapi.com/api-docs/#response-format)
+[完整响应说明](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=docs&utm_campaign=xiaohongshu#response-format)

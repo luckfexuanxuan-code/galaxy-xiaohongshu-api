@@ -27,7 +27,7 @@ Galaxy API 是以小红书为核心的数据采集分析平台。你可以在网
 
 分析报告需提交数据并确认订单，由分析人员处理、复核和交付。评论分析目前面向小红书美妆、个护类目；内容分析目前支持视频口播，图文暂不支持。素材下载等功能以账户权限及实际归档结果为准。
 
-[平台功能详解](docs/platform.md) · [使用指南](https://galaxysapi.com/docs/crawling) · [数据中心](https://galaxysapi.com/data) · [数据分析](https://galaxysapi.com/console/comment-reports)
+[平台功能详解](docs/platform.md) · [使用指南](https://galaxysapi.com/docs/crawling?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [数据中心](https://galaxysapi.com/data?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [数据分析](https://galaxysapi.com/console/comment-reports?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
 
 ## 平台界面
 
@@ -58,13 +58,13 @@ Galaxy API 是以小红书为核心的数据采集分析平台。你可以在网
 
 ![小红书评论分析报告公开示例](assets/screenshots/05-comment-report.png)
 
-[打开完整评论报告示例](https://galaxysapi.com/api/reports/sample)
+[打开完整评论报告示例](https://galaxysapi.com/api/reports/sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
 
 **视频内容分析报告示例**
 
 ![小红书视频内容分析报告公开示例](assets/screenshots/06-content-report.png)
 
-[打开完整内容报告示例](https://galaxysapi.com/api/reports/content-sample)
+[打开完整内容报告示例](https://galaxysapi.com/api/reports/content-sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
 
 </details>
 
@@ -72,25 +72,25 @@ Galaxy API 是以小红书为核心的数据采集分析平台。你可以在网
 
 | 能力 | 可以获取什么 | 文档 |
 | --- | --- | --- |
-| 笔记搜索 | 按关键词查找笔记，按排序、内容类型等条件筛选 | [搜索接口](https://galaxysapi.com/api-docs/#api-search_note_v1) |
-| 笔记详情 | 图文或视频笔记的正文、作者与互动信息 | [详情接口](https://galaxysapi.com/api-docs/#api-get_note_detail_v1) |
-| 评论与回复 | 一级评论、二级回复，按接口参数分页读取 | [评论接口](https://galaxysapi.com/api-docs/#api-get_note_comment_v1) |
-| 用户与作品 | 用户资料、作品列表、用户搜索 | [小红书 App](https://galaxysapi.com/api-docs/#group-xiaohongshu-app) |
-| Web 接口 | Web 端笔记详情、搜索、评论等能力 | [小红书 Web](https://galaxysapi.com/api-docs/#group-xiaohongshu-web) |
+| 笔记搜索 | 按关键词查找笔记，按排序、内容类型等条件筛选 | [搜索接口](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu#api-search_note_v1) |
+| 笔记详情 | 图文或视频笔记的正文、作者与互动信息 | [详情接口](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu#api-get_note_detail_v1) |
+| 评论与回复 | 一级评论、二级回复，按接口参数分页读取 | [评论接口](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu#api-get_note_comment_v1) |
+| 用户与作品 | 用户资料、作品列表、用户搜索 | [小红书 App](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu#group-xiaohongshu-app) |
+| Web 接口 | Web 端笔记详情、搜索、评论等能力 | [小红书 Web](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu#group-xiaohongshu-web) |
 | 商品与话题 | 商品搜索、详情、评论及话题笔记 | [完整目录](docs/endpoints.md) |
 
 ### 蒲公英：小红书达人数据
 
 查看达人资料、数据表现、成长表现、笔记列表、粉丝增长和粉丝标签，将内容数据与达人研究结合起来。
 
-- [作者信息](https://galaxysapi.com/api-docs/#api-pgy_author_info)：从小红书用户 ID 查询达人资料。
-- [全部蒲公英接口](https://galaxysapi.com/api-docs/#group-xiaohongshu-pgy)：按场景选择指标与参数。
+- [作者信息](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu#api-pgy_author_info)：从小红书用户 ID 查询达人资料。
+- [全部蒲公英接口](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu#group-xiaohongshu-pgy)：按场景选择指标与参数。
 - [本地返回示例](examples/responses/pgy_author_info.json)：查看脱敏后的字段结构。
 
 ## API 快速开始
 
 1. [注册 Galaxy API 账号](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)，完成邮箱验证。
-2. 在控制台的 [API 密钥](https://galaxysapi.com/console/api-keys) 页面创建密钥，并确认账户余额及密钥配额。
+2. 在控制台的 [API 密钥](https://galaxysapi.com/console/api-keys?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) 页面创建密钥，并确认账户余额及密钥配额。
 3. 通过请求头 `Authorization` 直接传入完整 API Key。
 
 请求地址：`https://api.galaxysapi.com`。这里直接填写密钥，不加 `Bearer ` 前缀。
@@ -165,13 +165,13 @@ node examples/node/call.mjs pgy --demo
 }
 ```
 
-各接口的 `data` 结构可能不同。完整字段及更多示例请查看对应的 [API 文档](https://galaxysapi.com/api-docs/)。
+各接口的 `data` 结构可能不同。完整字段及更多示例请查看对应的 [API 文档](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)。
 
 ## 开通与使用
 
-[注册账号](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [打开工作台](https://galaxysapi.com/platform) · [查看接入文档](https://galaxysapi.com/api-docs/) · [控制台](https://galaxysapi.com/console/dashboard)
+[注册账号](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [打开工作台](https://galaxysapi.com/platform?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [查看接入文档](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [控制台](https://galaxysapi.com/console/dashboard?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
 
 ## 反馈与维护
 
 - 接入或示例问题：提交 [Issue](https://github.com/luckfexuanxuan-code/galaxy-xiaohongshu-api/issues)，附接口名、时间、状态码和脱敏后的错误说明。
-- 余额、密钥等账户事项：登录 [Galaxy API](https://galaxysapi.com/) 后通过平台客服处理。不要在 Issue 中提交 API Key 或账户信息。
+- 余额、密钥等账户事项：登录 [Galaxy API](https://galaxysapi.com/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) 后通过平台客服处理。不要在 Issue 中提交 API Key 或账户信息。

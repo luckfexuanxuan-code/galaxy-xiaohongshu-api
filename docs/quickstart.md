@@ -2,7 +2,7 @@
 
 ## 准备密钥
 
-在 [Galaxy API](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=docs&utm_campaign=xiaohongshu) 注册并验证邮箱，前往 [API 密钥](https://galaxysapi.com/console/api-keys) 创建密钥。确认密钥启用、未过期，且余额及配额足够。
+在 [Galaxy API](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=docs&utm_campaign=xiaohongshu) 注册并验证邮箱，前往 [API 密钥](https://galaxysapi.com/console/api-keys?utm_source=github&utm_medium=docs&utm_campaign=xiaohongshu) 创建密钥。确认密钥启用、未过期，且余额及配额足够。
 
 将密钥设置为环境变量，示例不会自动读取 `.env` 文件：
 
@@ -36,7 +36,7 @@ node examples/node/call.mjs comments --demo
 python3 examples/python/call.py search --keyword 咖啡 --page 1 --page_size 20
 ```
 
-关键词由客户端 URL 编码，支持中文及特殊字符。搜索可选参数包括 `sort`、`note_type`、`note_range`、`note_time`、`search_id`、`session_id`，具体取值见 [接口文档](https://galaxysapi.com/api-docs/#api-search_note_v1)。
+关键词由客户端 URL 编码，支持中文及特殊字符。搜索可选参数包括 `sort`、`note_type`、`note_range`、`note_time`、`search_id`、`session_id`，具体取值见 [接口文档](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=docs&utm_campaign=xiaohongshu#api-search_note_v1)。
 
 图文笔记详情默认使用 `node_type=images`；查询视频笔记时按文档传 `node_type=video`：
 
@@ -64,4 +64,4 @@ python3 examples/python/call.py search --keyword 咖啡 --csv output/notes.csv
 
 Python 和 Node.js 示例会检查 HTTP 状态和顶层 `code` / `success`。`code=0` 或 `200` 表示通过这一层检查。`data` 内的内容状态仍需由你的业务判断，例如笔记详情中的 `model_type=error` 表示该内容不可正常展示。
 
-遇到错误时查看 [排查说明](troubleshooting.md)。API 消费可在 [用量页面](https://galaxysapi.com/console/api-usage) 核对。
+遇到错误时查看 [排查说明](troubleshooting.md)。API 消费可在 [用量页面](https://galaxysapi.com/console/api-usage?utm_source=github&utm_medium=docs&utm_campaign=xiaohongshu) 核对。

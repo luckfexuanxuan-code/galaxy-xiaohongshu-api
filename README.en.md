@@ -27,7 +27,7 @@ Developers can also use the Xiaohongshu App, Web and Pugongying APIs to integrat
 
 Reports are processed, reviewed and delivered by analysts after submission and order confirmation. Comment analysis currently focuses on Xiaohongshu beauty and personal care; content analysis supports spoken video content, with image posts currently unsupported. Media downloads depend on account permissions and archive availability.
 
-[Platform guide (Chinese)](docs/platform.md) · [Data Center](https://galaxysapi.com/data) · [Data analysis](https://galaxysapi.com/console/comment-reports)
+[Platform guide (Chinese)](docs/platform.md) · [Data Center](https://galaxysapi.com/data?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [Data analysis](https://galaxysapi.com/console/comment-reports?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
 
 ## Platform screenshots
 
@@ -52,11 +52,11 @@ Task: `search_20261004192802_c39f`, keyword “维多利亚港” (Victoria Harb
 
 ![Published comment analysis report example](assets/screenshots/05-comment-report.png)
 
-[Open the comment report example](https://galaxysapi.com/api/reports/sample)
+[Open the comment report example](https://galaxysapi.com/api/reports/sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
 
 ![Published video content analysis report example](assets/screenshots/06-content-report.png)
 
-[Open the content report example](https://galaxysapi.com/api/reports/content-sample)
+[Open the content report example](https://galaxysapi.com/api/reports/content-sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
 
 </details>
 
@@ -71,11 +71,11 @@ Task: `search_20261004192802_c39f`, keyword “维多利亚港” (Victoria Harb
 | Web | Web note details, searches and comments |
 | Pugongying | Creator profiles, performance, growth, notes and audience metrics |
 
-Browse the [endpoint directory](docs/endpoints.md) or the [online documentation](https://galaxysapi.com/api-docs/).
+Browse the [endpoint directory](docs/endpoints.md) or the [online documentation](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu).
 
 ## API quick start
 
-Create an account, create an API key in the [console](https://galaxysapi.com/console/api-keys), and check your balance and key quota. Pass the full key in the `Authorization` header **without a `Bearer ` prefix**.
+Create an account, create an API key in the [console](https://galaxysapi.com/console/api-keys?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu), and check your balance and key quota. Pass the full key in the `Authorization` header **without a `Bearer ` prefix**.
 
 ```bash
 git clone https://github.com/luckfexuanxuan-code/galaxy-xiaohongshu-api.git
@@ -112,8 +112,8 @@ The [response directory](examples/responses) contains sanitized, shortened excer
 
 ## Get access
 
-[Create an account](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [Read the documentation](https://galaxysapi.com/api-docs/) · [Open the console](https://galaxysapi.com/console/dashboard)
+[Create an account](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [Read the documentation](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [Open the console](https://galaxysapi.com/console/dashboard?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
 
 ## Support
 
-Report example-code issues through [Issues](https://github.com/luckfexuanxuan-code/galaxy-xiaohongshu-api/issues). Include the endpoint, time and sanitized error, never API keys or account information. For account and billing questions, use support in the [Galaxy API platform](https://galaxysapi.com/).
+Report example-code issues through [Issues](https://github.com/luckfexuanxuan-code/galaxy-xiaohongshu-api/issues). Include the endpoint, time and sanitized error, never API keys or account information. For account and billing questions, use support in the [Galaxy API platform](https://galaxysapi.com/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu).

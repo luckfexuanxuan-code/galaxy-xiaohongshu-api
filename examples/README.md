@@ -20,7 +20,7 @@ python3 examples/python/call.py COMMAND --参数名 参数值
 node examples/node/call.mjs COMMAND --参数名 参数值
 ```
 
-参数通过 query string 传递。完整参数以 [在线文档](https://galaxysapi.com/api-docs/) 为准；示例支持的参数列表保存在 [endpoints.json](endpoints.json)。哔哩哔哩视频详情在服务端也支持 AV 号，这里的快捷示例使用 BV 号。
+参数通过 query string 传递。完整参数以 [在线文档](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=examples&utm_campaign=xiaohongshu) 为准；示例支持的参数列表保存在 [endpoints.json](endpoints.json)。哔哩哔哩视频详情在服务端也支持 AV 号，这里的快捷示例使用 BV 号。
 
 ## 小红书与蒲公英
 

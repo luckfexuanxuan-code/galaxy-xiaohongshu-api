@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
   - name: Galaxy API 文档
-    url: https://galaxysapi.com/api-docs/
+    url: https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=issues&utm_campaign=xiaohongshu
     about: 查看接口参数和返回示例
   - name: 账户与计费支持
-    url: https://galaxysapi.com/
+    url: https://galaxysapi.com/?utm_source=github&utm_medium=issues&utm_campaign=xiaohongshu
     about: 登录平台后通过客服处理账户、余额和付款问题
