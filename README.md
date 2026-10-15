@@ -25,8 +25,6 @@ Galaxy API 是以小红书为核心的数据采集分析平台。你可以在网
 
 **使用流程：选择功能 → 填写参数 → 创建采集任务 → 预览与整理数据 → 导出或提交分析。**
 
-分析报告需提交数据并确认订单，由分析人员处理、复核和交付。评论分析目前面向小红书美妆、个护类目；内容分析目前支持视频口播，图文暂不支持。素材下载等功能以账户权限及实际归档结果为准。
-
 [平台功能详解](docs/platform.md) · [使用指南](https://galaxysapi.com/docs/crawling?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [数据中心](https://galaxysapi.com/data?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [数据分析](https://galaxysapi.com/console/comment-reports?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
 
 ## 平台界面
