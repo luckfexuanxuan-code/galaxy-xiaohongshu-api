@@ -6,8 +6,7 @@
 
 Galaxy API 是面向自媒体运营、品牌研究和开发者的数据采集分析平台。通过网页工作台输入关键词、笔记链接或用户主页，即可创建采集任务，并在数据中心预览、筛选、合并和导出结果。
 
-平台支持小红书笔记搜索、评论采集、博主作品与用户资料整理，可将采集结果导出为 Excel 或 CSV，并按需要提交评论分析、视频内容分析。本仓库重点展示小红书场景，提供平台功能介绍、操作截图、使用教程及 API 调用示例。
-
+平台支持小红书笔记搜索、评论采集、博主作品与用户资料整理，可将采集结果导出为 Excel 或 CSV，并按需要提交评论分析、视频内容分析。
 **[进入采集工作台](https://galaxysapi.com/platform?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)** · **[查看接口文档](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)** · **[注册账号](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)** · [English](README.en.md)
 
 ## 平台能做什么
