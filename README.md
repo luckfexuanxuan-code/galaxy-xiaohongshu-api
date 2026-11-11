@@ -35,40 +35,13 @@ Galaxy API 是面向自媒体运营、品牌研究和开发者的数据采集分
 | [小红书评论分析](https://galaxysapi.com/guides/xiaohongshu-comment-analysis?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | 准备样本、提交报告、研究用户关注点与购买信号 |
 | [小红书 API 接入教程](https://galaxysapi.com/guides/xiaohongshu-api-integration?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | 设置 API Key、调用笔记搜索、读取详情与评论 |
 
-## 平台界面
+## 功能预览
 
-**功能广场：按平台和用途选择采集工具。**
+正式平台浅色主题截图，按两行三列展示：采集工作台、笔记搜索、数据中心、笔记预览、评论分析和内容分析。
 
-![小红书功能广场：筛选和查找采集工具](assets/screenshots/01-workbench.png)
+[![Galaxy 平台功能预览：六张正式站截图，两行三列排列](assets/screenshots/platform-overview.png)](assets/screenshots/platform-overview.png)
 
-**数据预览：查看笔记标题、正文、图片与互动信息，进一步筛选或导出。**
-
-![数据预览：维多利亚港搜索任务的真实笔记数据](assets/screenshots/04-data-preview.png)
-
-<details>
-<summary>展开查看采集进度、数据中心和分析报告</summary>
-
-**批量采集与进度**
-
-![小红书关键词采集：输入参数与进度展示](assets/screenshots/02-collection.png)
-
-**数据中心任务管理**
-
-![数据中心：任务搜索、状态、预览和批量操作](assets/screenshots/03-data-center.png)
-
-**评论分析报告示例**
-
-![小红书评论分析报告公开示例](assets/screenshots/05-comment-report.png)
-
-[打开完整评论报告示例](https://galaxysapi.com/api/reports/sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
-
-**视频内容分析报告示例**
-
-![小红书视频内容分析报告公开示例](assets/screenshots/06-content-report.png)
-
-[打开完整内容报告示例](https://galaxysapi.com/api/reports/content-sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
-
-</details>
+[打开评论分析报告示例](https://galaxysapi.com/api/reports/sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [打开内容分析报告示例](https://galaxysapi.com/api/reports/content-sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
 
 ## 小红书 API：从内容发现到达人研究
 
