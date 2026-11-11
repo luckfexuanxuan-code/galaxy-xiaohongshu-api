@@ -38,40 +38,13 @@ The following public guides support Chinese and English through the page languag
 | [Comment analysis](https://galaxysapi.com/guides/xiaohongshu-comment-analysis?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | Prepare samples, submit reports and study audience concerns and purchase signals |
 | [API integration](https://galaxysapi.com/guides/xiaohongshu-api-integration?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | Configure API keys, search notes and retrieve details and comments |
 
-## Platform screenshots
+## Feature preview
 
-**Choose a Xiaohongshu collection tool.**
+Fresh screenshots from the live platform in the Light theme, arranged in two rows and three columns: collection workbench, note search, Data Center, note preview, comment analysis and content analysis. Data screens use the platform's public examples.
 
-![Xiaohongshu collection workbench](assets/screenshots/01-workbench.png)
+[![Galaxy feature preview: six live-platform screenshots in a two-row, three-column layout](assets/screenshots/platform-overview.png)](assets/screenshots/platform-overview.png)
 
-**Preview note titles, text, images and engagement; search, filter and export collected records.**
-
-![Data preview with actual notes from a Victoria Harbour search task](assets/screenshots/04-data-preview.png)
-
-<details>
-<summary>View collection progress, Data Center and analysis reports</summary>
-
-**Batch collection and progress**
-
-![Xiaohongshu keyword collection: parameters and progress](assets/screenshots/02-collection.png)
-
-**Task management in Data Center**
-
-![Data Center: task search, status, preview and batch actions](assets/screenshots/03-data-center.png)
-
-**Comment analysis report example**
-
-![Published comment analysis report example](assets/screenshots/05-comment-report.png)
-
-[Open the comment report example](https://galaxysapi.com/api/reports/sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
-
-**Video content analysis report example**
-
-![Published video content analysis report example](assets/screenshots/06-content-report.png)
-
-[Open the content report example](https://galaxysapi.com/api/reports/content-sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
-
-</details>
+[Open the comment analysis report example](https://galaxysapi.com/api/reports/sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [Open the content analysis report example](https://galaxysapi.com/api/reports/content-sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
 
 ## Xiaohongshu API capabilities
 
