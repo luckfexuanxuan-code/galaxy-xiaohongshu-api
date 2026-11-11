@@ -37,11 +37,11 @@ Galaxy API 是面向自媒体运营、品牌研究和开发者的数据采集分
 
 ## 功能预览
 
-正式平台浅色主题截图，按两行三列展示：采集工作台、笔记搜索、数据中心、笔记预览、评论分析和内容分析。
+正式平台浅色主题截图，按两行三列展示：采集工作台、笔记搜索、数据中心、笔记预览、评论分析和概览。概览使用演示账号截图，数据页面使用平台公开示例。
 
 [![Galaxy 平台功能预览：六张正式站截图，两行三列排列](assets/screenshots/platform-overview.png)](assets/screenshots/platform-overview.png)
 
-[打开评论分析报告示例](https://galaxysapi.com/api/reports/sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [打开内容分析报告示例](https://galaxysapi.com/api/reports/content-sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
+[打开评论分析报告示例](https://galaxysapi.com/api/reports/sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [进入概览](https://galaxysapi.com/console/dashboard?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
 
 ## 小红书 API：从内容发现到达人研究
 
