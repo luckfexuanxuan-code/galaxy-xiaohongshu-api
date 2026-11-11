@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-11T02:13:24.296Z",
+  "capturedAt": "2026-11-11T02:51:13.024Z",
   "source": "https://galaxysapi.com",
   "theme": "light",
   "viewport": {
@@ -11,7 +11,7 @@
     "columns": 3
   },
   "image": "platform-overview.png",
-  "sourceData": "Platform public examples; real pages with no mocked business responses.",
+  "sourceData": "Platform public examples and the explicitly designated real demo account for Overview; no mocked business responses.",
   "panels": [
     {
       "file": "01-workbench.png",
@@ -49,14 +49,12 @@
       "pageTitle": "雅诗兰黛智妍 · 小红书评论区深度分析"
     },
     {
-      "file": "06-content-report.png",
-      "title": "内容分析",
-      "description": "拆解选题、内容结构与互动表现",
-      "url": "https://galaxysapi.com/api/reports/content-sample#s1",
-      "pageTitle": "OLAY超红瓶面霜 · 小红书内容深度分析（D11 预热期）"
+      "file": "06-overview.png",
+      "title": "概览",
+      "description": "查看使用概况、热门接口与活跃度",
+      "url": "https://galaxysapi.com/console/dashboard",
+      "pageTitle": "控制台"
     }
   ],
-  "blockedMutationPaths": [
-    "/api/security/csp-report"
-  ]
+  "blockedMutationPaths": []
 }

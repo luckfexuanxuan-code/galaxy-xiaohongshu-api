@@ -40,11 +40,11 @@ The following public guides support Chinese and English through the page languag
 
 ## Feature preview
 
-Fresh screenshots from the live platform in the Light theme, arranged in two rows and three columns: collection workbench, note search, Data Center, note preview, comment analysis and content analysis. Data screens use the platform's public examples.
+Fresh screenshots from the live platform in the Light theme, arranged in two rows and three columns: collection workbench, note search, Data Center, note preview, comment analysis and account overview. Data Center and note preview use public examples; Overview shows the designated demo account.
 
 [![Galaxy feature preview: six live-platform screenshots in a two-row, three-column layout](assets/screenshots/platform-overview.png)](assets/screenshots/platform-overview.png)
 
-[Open the comment analysis report example](https://galaxysapi.com/api/reports/sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [Open the content analysis report example](https://galaxysapi.com/api/reports/content-sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
+[Open the comment analysis report example](https://galaxysapi.com/api/reports/sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [Open account overview](https://galaxysapi.com/console/dashboard?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
 
 ## Xiaohongshu API capabilities
 

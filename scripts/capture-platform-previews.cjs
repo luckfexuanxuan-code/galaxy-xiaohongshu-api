@@ -1,10 +1,12 @@
 /**
- * Fresh public-platform screenshots and a single 2-row × 3-column README image.
- * Requires Playwright/Chromium. Does not log in, create tasks, fetch note bodies,
- * start paid downloads, or replace server responses with demonstration fixtures.
+ * Fresh live-platform screenshots and a single 2-row × 3-column README image.
+ * Requires Playwright/Chromium and an explicitly supplied demo-account session
+ * for the Overview panel. Does not create tasks, fetch note bodies, start paid
+ * downloads, or replace any server response with demonstration fixtures.
  *
  * PLAYWRIGHT_MODULE=/path/to/playwright \
  * PLAYWRIGHT_CHROMIUM_EXECUTABLE=/path/to/chromium \
+ * SCREENSHOT_DEMO_STATE=/private/path/demo-session.json \
  * node scripts/capture-platform-previews.cjs
  */
 const fs = require('node:fs');
@@ -19,7 +21,7 @@ const panels = [
   { file: '03-data-center.png', title: '数据中心', description: '集中管理、筛选与导出采集结果', route: '/data?date=all' },
   { file: '04-data-preview.png', title: '笔记预览', description: '左图右文，查看正文与互动数据', route: '/data?taskId=sample_detail' },
   { file: '05-comment-report.png', title: '评论分析', description: '从评论中发现用户关注点与购买信号', route: '/api/reports/sample#s0' },
-  { file: '06-content-report.png', title: '内容分析', description: '拆解选题、内容结构与互动表现', route: '/api/reports/content-sample#s1' },
+  { file: '06-overview.png', title: '概览', description: '查看使用概况、热门接口与活跃度', route: '/console/dashboard' },
 ];
 const waitForImages = async page => {
   await page.evaluate(async () => {
@@ -51,9 +53,33 @@ const escape = text => text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace
       }
       return request.continue();
     });
-    const page = await context.newPage();
+    let page = await context.newPage();
     const captures = [];
+    const only = process.env.SCREENSHOT_ONLY ? new Set(process.env.SCREENSHOT_ONLY.split(',').map(Number)) : null;
+    const previous = fs.existsSync(path.join(output,'capture-manifest.json')) ? JSON.parse(fs.readFileSync(path.join(output,'capture-manifest.json'),'utf8')) : null;
     for (const [index, panel] of panels.entries()) {
+      if (only && !only.has(index + 1)) {
+        const old = previous?.panels?.find(item => item.file === panel.file);
+        if (!old || !fs.existsSync(path.join(output,panel.file))) throw new Error('Partial capture needs an existing '+panel.file);
+        captures.push({...old,capturedAt:old.capturedAt||previous.capturedAt});
+        continue;
+      }
+      if (index === 5) {
+        if (!process.env.SCREENSHOT_DEMO_STATE) throw new Error("Overview capture requires SCREENSHOT_DEMO_STATE from the explicitly designated demo account");
+        const demo = await browser.newContext({
+          viewport: {width:1440,height:900}, deviceScaleFactor:1, colorScheme:'light', reducedMotion:'reduce',
+          storageState:process.env.SCREENSHOT_DEMO_STATE,
+        });
+        await demo.addInitScript(() => localStorage.setItem('galaxy.preferences.v1',JSON.stringify({theme:'blue',locale:'zh-CN'})));
+        await demo.route('**/api/**', request => {
+          if (!['GET','HEAD','OPTIONS'].includes(request.request().method())) {
+            blocked.add(new URL(request.request().url()).pathname);
+            return request.abort();
+          }
+          return request.continue();
+        });
+        page = await demo.newPage();
+      }
       await page.goto(base + panel.route, { waitUntil: 'networkidle', timeout: 60000 });
       await page.evaluate(() => document.fonts.ready);
       if (index === 0) await page.locator('.market-card').first().waitFor();
@@ -64,25 +90,38 @@ const escape = text => text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace
       if (index === 2) await page.getByText('红薯搜索示例数据', {exact:true}).waitFor();
       if (index === 3) {
         await page.locator('.note-cell-preview').first().waitFor();
-        const titles = await page.locator('.note-title-action').allInnerTexts();
-        const selected = Math.max(0, titles.findIndex(text => /维多利亚|香港|咖啡|旅行|海边/.test(text)));
-        await page.locator('.note-cell-preview').nth(selected).click();
+        const candidates = await page.locator('.note-cell-preview').evaluateAll(buttons => buttons.map((button, index) => {
+          const row = button.closest('tr');
+          const text = label => row?.querySelector(`[data-label="${label}"]`)?.textContent?.trim() || '';
+          return {index, type:text('笔记类型'), title:row?.querySelector('.note-title-action')?.textContent || '',
+            length:(row?.querySelector('.note-content-action')?.textContent || '').length, images:Number(text('图片数量'))};
+        }));
+        const selected = candidates.filter(item => !/video|视频/i.test(item.type) && item.images >= 2 && item.length >= 120)
+          .sort((a,b) => ((/双十一换机攻略/.test(b.title)?10000:0)+b.length)-((/双十一换机攻略/.test(a.title)?10000:0)+a.length))[0];
+        if (!selected) throw new Error('No suitable multi-image text note in the public sample');
+        await page.locator('.note-cell-preview').nth(selected.index).click();
         await page.locator('.note-detail-dialog').waitFor();
+        if (await page.locator('.note-detail-dialog .note-video-open').count()) throw new Error('Selected note is a video');
+        if (await page.locator('.note-gallery-dots button').count() < 2) throw new Error('Image-text note has no gallery');
         await page.waitForFunction(() => {
           const img = document.querySelector('.note-detail-dialog .note-detail-image');
           return img && img.complete && img.naturalWidth > 0;
         }, undefined, { timeout: 20000 });
       }
-      if (index >= 4) {
+      if (panel.route.includes('#')) {
         const hash = new URL(base + panel.route).hash;
         await page.locator(`a[href="${hash}"]`).first().click();
+      }
+      if (index === 5) {
+        await page.locator('.profile-overview .profile-summary-grid').waitFor({timeout:30000});
+        if (await page.locator('.profile-overview [role="alert"]').count()) throw new Error('Overview has a load error');
       }
       await waitForImages(page);
       await page.waitForTimeout(800);
       const image = path.join(output, panel.file);
       await page.screenshot({path:image, animations:'disabled'});
       const {route, ...publicPanel} = panel;
-      captures.push({...publicPanel, url:page.url(), pageTitle:await page.title()});
+      captures.push({...publicPanel, url:page.url(), pageTitle:await page.title(), capturedAt:new Date().toISOString()});
       console.log('Captured', panel.file, panel.title);
     }
     // Build the image with browser layout; the six original screenshots remain intact.
@@ -101,7 +140,7 @@ const escape = text => text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace
     await collage.locator('#preview').screenshot({path:path.join(output,'platform-overview.png'),animations:'disabled'});
     fs.writeFileSync(path.join(output,'capture-manifest.json'), JSON.stringify({
       capturedAt:new Date().toISOString(),source:base,theme:'light',viewport:{width:1440,height:900},layout:{rows:2,columns:3},image:'platform-overview.png',
-      sourceData:'Platform public examples; real pages with no mocked business responses.',panels:captures,blockedMutationPaths:[...blocked],
+      sourceData:'Platform public examples and the explicitly designated real demo account for Overview; no mocked business responses.',panels:captures,blockedMutationPaths:[...new Set([...(only ? previous?.blockedMutationPaths || [] : []),...blocked])],
     },null,2)+'\n');
     console.log('Created platform-overview.png (2 rows × 3 columns)');
   } finally { await browser.close(); }

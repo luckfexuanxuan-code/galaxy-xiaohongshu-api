@@ -4,9 +4,9 @@ Galaxy API 将网页采集工具、数据管理、分析报告和 API 接入放�
 
 [进入工作台](https://galaxysapi.com/platform?utm_source=github&utm_medium=docs&utm_campaign=xiaohongshu) · [注册账号](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=docs&utm_campaign=xiaohongshu) · [API 文档](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=docs&utm_campaign=xiaohongshu)
 
-[![平台功能预览：工作台、笔记搜索、数据中心、笔记预览、评论分析、内容分析](../assets/screenshots/platform-overview.png)](../assets/screenshots/platform-overview.png)
+[![平台功能预览：工作台、笔记搜索、数据中心、笔记预览、评论分析、概览](../assets/screenshots/platform-overview.png)](../assets/screenshots/platform-overview.png)
 
-六张图片重新截取自正式平台，采用浅色主题并按两行三列排列。数据中心和笔记预览使用平台公开示例，分析页面使用已发布的公开报告样例。
+六张图片重新截取自正式平台，采用浅色主题并按两行三列排列。数据中心和笔记预览使用平台公开示例，评论分析使用已发布的公开报告，概览使用指定的演示账号。
 
 ## 1. 选择工具，批量采集
 
