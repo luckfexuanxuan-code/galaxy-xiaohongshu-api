@@ -1,5 +1,7 @@
+<h1 align="center">Galaxy API · 自媒体数据采集分析平台</h1>
+
 <p align="center">
-  <a href="https://galaxysapi.com/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><img src="assets/banner.svg" alt="Galaxy API 自媒体数据采集分析平台" width="100%"></a>
+  小红书、抖音数据，不写代码也能批量采集、整理、分析。
 </p>
 
 <p align="center">
@@ -7,16 +9,12 @@
 </p>
 
 <p align="center">
-  <b>小红书、抖音数据，不写代码也能批量采集、整理、分析。</b>
+  <a href="https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><img src="https://img.shields.io/badge/免费注册-1f883d?style=for-the-badge" alt="免费注册"></a>
+  <a href="https://galaxysapi.com/platform?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><img src="https://img.shields.io/badge/进入工作台-24292f?style=for-the-badge" alt="进入工作台"></a>
+  <a href="https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><img src="https://img.shields.io/badge/API_文档-0969da?style=for-the-badge" alt="API 文档"></a>
 </p>
 
-<p align="center">
-  <a href="https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><img src="https://img.shields.io/badge/免费注册-7c3aed?style=for-the-badge" alt="免费注册"></a>
-  <a href="https://galaxysapi.com/platform?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><img src="https://img.shields.io/badge/进入工作台-1e1145?style=for-the-badge" alt="进入工作台"></a>
-  <a href="https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><img src="https://img.shields.io/badge/API_文档-ede9fe?style=for-the-badge" alt="API 文档"></a>
-</p>
-
-## 📦 能采集什么
+## 📦 功能支持
 
 **4** 个平台 · **17** 个免代码采集工具 · **49** 个 API 接口 · **2** 类分析报告
 
@@ -29,18 +27,7 @@
 
 <sub>✅ 网页工作台 + API　🔌 仅 API　➖ 暂不支持　｜　蒲公英「粉丝」为粉丝增长与粉丝标签。完整清单见 <a href="docs/endpoints.md">接口目录</a>。</sub>
 
-## 🔄 怎么用
-
-<p align="center"><img src="assets/workflow.svg" alt="工作流程：1 采集 → 2 整理 → 3 导出 → 4 洞察，API 可接入同一份数据" width="100%"></p>
-
-| | 🖱️ 网页工作台 | 📊 分析报告 | 🔌 API |
-| :-- | :-- | :-- | :-- |
-| **适合** | 运营、市场、研究 | 需要结论的团队 | 开发者、数据团队 |
-| **写代码** | 不需要 | 不需要 | 需要 |
-| **得到** | 表格数据、Excel / CSV、素材 | 评论分析、视频内容分析报告 | JSON，接入自有系统 |
-| **入口** | [打开工作台 →](https://galaxysapi.com/platform?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | [看报告示例 →](https://galaxysapi.com/api/reports/sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | [看 API 文档 →](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) |
-
-## 🎯 适合谁
+## 🎯 应用场景
 
 <table>
   <tr>
@@ -55,24 +42,42 @@
   </tr>
 </table>
 
-## 🖼️ 平台截图
+## 🔄 工作流程
 
-[![Galaxy API 平台截图：采集工作台、笔记搜索、数据中心、笔记预览、评论分析、概览](assets/screenshots/platform-overview.png)](assets/screenshots/platform-overview.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/workflow-dark.svg">
+  <img src="assets/workflow.svg" alt="工作流程：1 采集 → 2 整理 → 3 导出 → 4 洞察，API 可接入同一份数据" width="100%">
+</picture>
 
-<sub>数据中心与笔记预览为平台公开示例，概览为演示账号。<a href="docs/platform.md">平台功能详解 →</a></sub>
+| 使用方式 | 🖱️ 网页工作台 | 📊 分析报告 | 🔌 API |
+| :-- | :-- | :-- | :-- |
+| **适用人群** | 运营、市场、研究 | 需要结论的团队 | 开发者、数据团队 |
+| **是否编程** | 不需要 | 不需要 | 需要 |
+| **交付内容** | 表格数据、Excel / CSV、素材 | 评论分析、视频内容分析报告 | JSON，接入自有系统 |
+| **入口** | [打开工作台 →](https://galaxysapi.com/platform?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | [看报告示例 →](https://galaxysapi.com/api/reports/sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | [看 API 文档 →](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) |
 
-## ⚖️ 自建爬虫 vs Galaxy API
+## 💰 价格
 
-| | 自建爬虫 | Galaxy API |
+**源头资源，价格低廉：常用接口 ¥0.02 / 次，失败请求不计费，没有月费。** 注册即送 ¥1 体验金，[查看完整价格 →](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu#pricing)
+
+## ⚖️ 方案对比
+
+| 对比项 | 自建爬虫 | Galaxy API |
 | :-- | :-- | :-- |
+| 起步成本 | 账号、代理、服务器、开发时间 | ✅ 注册即用，送 ¥1 体验金 |
 | 账号 / Cookie | 自己准备，过期要换 | ✅ 不需要 |
 | 代理 IP | 自己采购、轮换 | ✅ 不需要 |
 | 签名 / 风控 | 平台一更新就要重新适配 | ✅ 平台处理 |
 | 失败请求 | 照样消耗资源 | ✅ 不计费 |
 | 不会写代码 | 用不了 | ✅ 网页工作台 |
-| 整理与分析 | 另找工具 | ✅ 数据中心 + 分析报告 |
 
-## ⚡ 30 秒上手
+## 🖼️ 产品界面
+
+[![Galaxy API 平台截图：采集工作台、笔记搜索、数据中心、笔记预览、评论分析、概览](assets/screenshots/platform-overview.png)](assets/screenshots/platform-overview.png)
+
+<sub>数据中心与笔记预览为平台公开示例，概览为演示账号。<a href="docs/platform.md">平台功能详解 →</a></sub>
+
+## ⚡ 快速开始
 
 ```bash
 curl -G 'https://api.galaxysapi.com/api/search_note_v1' \
@@ -132,13 +137,17 @@ node examples/node/call.mjs pgy --user_id YOUR_USER_ID
 
 ## ❓ 常见问题
 
-<details><summary><b>怎么计费？</b></summary><br>按次计费，<b>成功的请求才扣费</b>。工作台任务按实际请求页数累计，提前结束不再扣费；分析报告单独下单。<a href="https://galaxysapi.com/docs/billing?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu">计费说明 →</a></details>
+<details><summary><b>怎么充值？有最低消费吗？</b></summary><br>没有月费和套餐，用多少扣多少。注册即送 ¥1 体验金，在线充值最低 ¥10。工作台任务按实际请求页数扣费，提前结束不再扣费。</details>
 
 <details><summary><b>分析报告是自动生成的吗？</b></summary><br>不是。提交数据并确认订单后，由分析人员处理、复核后交付。评论分析目前面向小红书美妆、个护类目，视频内容分析支持小红书视频口播。</details>
 
 <details><summary><b>数据可以用来做什么？</b></summary><br>只提供公开可见的数据，用于内容研究、竞品分析、口碑监测、选品和达人评估。请遵守平台规则与相关法律法规，不得侵犯个人隐私。</details>
 
----
+<br>
+
+<p align="center">
+  <a href="https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cta-dark.svg"><img src="assets/cta.svg" alt="注册即送 1 元体验金，约可发起 50 次请求 · 免费注册" width="100%"></picture></a>
+</p>
 
 <p align="center">
   <a href="https://galaxysapi.com/guides/xiaohongshu-comment-collection?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu">评论采集教程</a> ·
@@ -146,8 +155,7 @@ node examples/node/call.mjs pgy --user_id YOUR_USER_ID
   <a href="https://galaxysapi.com/guides/xiaohongshu-comment-analysis?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu">评论分析教程</a> ·
   <a href="https://galaxysapi.com/guides/xiaohongshu-api-integration?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu">API 接入教程</a> ·
   <a href="https://github.com/luckfexuanxuan-code/galaxyapi/issues">提交 Issue</a>
+  <br><sub>示例代码基于 <a href="LICENSE">MIT</a> 许可开源 · 平台服务按 <a href="https://galaxysapi.com/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu">galaxysapi.com</a> 规则计费</sub>
 </p>
-
-<p align="center"><sub>示例代码基于 <a href="LICENSE">MIT</a> 许可开源 · 平台服务按 <a href="https://galaxysapi.com/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu">galaxysapi.com</a> 规则计费</sub></p>
 
 最后更新：2026-11-19

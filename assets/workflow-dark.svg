@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="从采集到结论：Galaxy API 工作流程"><title>从采集到结论：Galaxy API 工作流程</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#656c76"/></marker></defs>
+<rect x=".5" y=".5" width="1279" height="339" rx="12" fill="#151b23" stroke="#3d444d"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans','PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif">
+<rect x="40" y="32" width="270" height="190" rx="10" fill="#0d1117" stroke="#3d444d" stroke-width="1"/>
+<circle cx="76" cy="70" r="16" fill="#4493f8"/>
+<text x="76" y="76" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">1</text>
+<text x="104" y="78" font-size="23" font-weight="700" fill="#f0f6fc">采集</text>
+<text x="62" y="118" font-size="17" fill="#9198a1">输入关键词 / 链接 / 主页</text>
+<rect x="58" y="136" width="234" height="30" rx="6" fill="#151b23" stroke="#3d444d"/>
+<text x="175.0" y="157" text-anchor="middle" font-size="16" fill="#f0f6fc">17 个采集工具</text>
+<rect x="58" y="174" width="234" height="30" rx="6" fill="#151b23" stroke="#3d444d"/>
+<text x="175.0" y="195" text-anchor="middle" font-size="16" fill="#f0f6fc">批量任务 · 实时进度</text>
+<line x1="314" y1="127.0" x2="337" y2="127.0" stroke="#656c76" stroke-width="2" marker-end="url(#a)"/>
+<rect x="343" y="32" width="270" height="190" rx="10" fill="#0d1117" stroke="#3d444d" stroke-width="1"/>
+<circle cx="379" cy="70" r="16" fill="#4493f8"/>
+<text x="379" y="76" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">2</text>
+<text x="407" y="78" font-size="23" font-weight="700" fill="#f0f6fc">整理</text>
+<text x="365" y="118" font-size="17" fill="#9198a1">数据中心</text>
+<rect x="361" y="136" width="234" height="30" rx="6" fill="#151b23" stroke="#3d444d"/>
+<text x="478.0" y="157" text-anchor="middle" font-size="16" fill="#f0f6fc">预览 · 筛选 · 排序</text>
+<rect x="361" y="174" width="234" height="30" rx="6" fill="#151b23" stroke="#3d444d"/>
+<text x="478.0" y="195" text-anchor="middle" font-size="16" fill="#f0f6fc">同类合并 · 字段去重</text>
+<line x1="617" y1="127.0" x2="640" y2="127.0" stroke="#656c76" stroke-width="2" marker-end="url(#a)"/>
+<rect x="646" y="32" width="270" height="190" rx="10" fill="#0d1117" stroke="#3d444d" stroke-width="1"/>
+<circle cx="682" cy="70" r="16" fill="#4493f8"/>
+<text x="682" y="76" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">3</text>
+<text x="710" y="78" font-size="23" font-weight="700" fill="#f0f6fc">导出</text>
+<text x="668" y="118" font-size="17" fill="#9198a1">一键下载</text>
+<rect x="664" y="136" width="234" height="30" rx="6" fill="#151b23" stroke="#3d444d"/>
+<text x="781.0" y="157" text-anchor="middle" font-size="16" fill="#f0f6fc">Excel · CSV</text>
+<rect x="664" y="174" width="234" height="30" rx="6" fill="#151b23" stroke="#3d444d"/>
+<text x="781.0" y="195" text-anchor="middle" font-size="16" fill="#f0f6fc">图片 / 视频素材打包</text>
+<line x1="920" y1="127.0" x2="943" y2="127.0" stroke="#656c76" stroke-width="2" marker-end="url(#a)"/>
+<rect x="949" y="32" width="270" height="190" rx="10" fill="#0d1117" stroke="#4493f8" stroke-width="2"/>
+<circle cx="985" cy="70" r="16" fill="#4493f8"/>
+<text x="985" y="76" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">4</text>
+<text x="1013" y="78" font-size="23" font-weight="700" fill="#f0f6fc">洞察</text>
+<text x="971" y="118" font-size="17" fill="#9198a1">分析报告</text>
+<rect x="967" y="136" width="234" height="30" rx="6" fill="#151b23" stroke="#3d444d"/>
+<text x="1084.0" y="157" text-anchor="middle" font-size="16" fill="#f0f6fc">评论分析 · 内容分析</text>
+<rect x="967" y="174" width="234" height="30" rx="6" fill="#151b23" stroke="#3d444d"/>
+<text x="1084.0" y="195" text-anchor="middle" font-size="16" fill="#f0f6fc">人工复核后交付</text>
+<rect x="40" y="246" width="1200" height="60" rx="10" fill="#0d1117" stroke="#3d444d"/>
+<rect x="56" y="261" width="64" height="30" rx="15" fill="#121d2f"/>
+<text x="88" y="282" text-anchor="middle" font-size="15" font-weight="700" fill="#4493f8">API</text>
+<text x="138" y="283" font-size="19" fill="#f0f6fc">同一份数据，用一个密钥接入你的业务系统 · BI · 数据仓库</text>
+<text x="1220" y="283" text-anchor="end" font-size="15" fill="#9198a1">api.galaxysapi.com</text>
+</g></svg>

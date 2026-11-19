@@ -1,5 +1,7 @@
+<h1 align="center">Galaxy API · Media Data Collection & Analysis</h1>
+
 <p align="center">
-  <a href="https://galaxysapi.com/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><img src="assets/banner.en.svg" alt="Galaxy API media data collection and analysis platform" width="100%"></a>
+  Collect, organize and analyze Xiaohongshu (RedNote) and Douyin data in bulk — no code required.
 </p>
 
 <p align="center">
@@ -7,16 +9,12 @@
 </p>
 
 <p align="center">
-  <b>Collect, organize and analyze Xiaohongshu (RedNote) and Douyin data in bulk — no code required.</b>
+  <a href="https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><img src="https://img.shields.io/badge/Sign_up_free-1f883d?style=for-the-badge" alt="Sign up free"></a>
+  <a href="https://galaxysapi.com/platform?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><img src="https://img.shields.io/badge/Open_workbench-24292f?style=for-the-badge" alt="Open workbench"></a>
+  <a href="https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><img src="https://img.shields.io/badge/API_docs-0969da?style=for-the-badge" alt="API docs"></a>
 </p>
 
-<p align="center">
-  <a href="https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><img src="https://img.shields.io/badge/Sign_up_free-7c3aed?style=for-the-badge" alt="Sign up free"></a>
-  <a href="https://galaxysapi.com/platform?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><img src="https://img.shields.io/badge/Open_workbench-1e1145?style=for-the-badge" alt="Open workbench"></a>
-  <a href="https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><img src="https://img.shields.io/badge/API_docs-ede9fe?style=for-the-badge" alt="API docs"></a>
-</p>
-
-## 📦 What you can collect
+## 📦 Supported features
 
 **4** platforms · **17** no-code tools · **49** API endpoints · **2** types of analysis reports
 
@@ -29,18 +27,7 @@
 
 <sub>✅ Web workbench + API　🔌 API only　➖ Not supported yet　|　Pugongying "followers" means follower growth and tags. Full list: <a href="docs/endpoints.md">endpoint catalog</a> (Chinese).</sub>
 
-## 🔄 How it works
-
-<p align="center"><img src="assets/workflow.en.svg" alt="Workflow: 1 Collect → 2 Organize → 3 Export → 4 Insight; the API delivers the same data to your systems" width="100%"></p>
-
-| | 🖱️ Web workbench | 📊 Analysis reports | 🔌 API |
-| :-- | :-- | :-- | :-- |
-| **For** | Operations, marketing, research | Teams that need conclusions | Developers, data teams |
-| **Code** | Not needed | Not needed | Needed |
-| **You get** | Tables, Excel / CSV, media assets | Comment and video content analysis | JSON for your own systems |
-| **Start** | [Open workbench →](https://galaxysapi.com/platform?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | [Sample report →](https://galaxysapi.com/api/reports/sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | [API docs →](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) |
-
-## 🎯 Who it's for
+## 🎯 Use cases
 
 <table>
   <tr>
@@ -55,24 +42,42 @@
   </tr>
 </table>
 
-## 🖼️ Screenshots
+## 🔄 Workflow
 
-[![Galaxy API screenshots: workbench, note search, Data Center, note preview, comment analysis, overview](assets/screenshots/platform-overview.png)](assets/screenshots/platform-overview.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/workflow.en-dark.svg">
+  <img src="assets/workflow.en.svg" alt="Workflow: 1 Collect → 2 Organize → 3 Export → 4 Insight; the API delivers the same data to your systems" width="100%">
+</picture>
 
-<sub>Production platform (Chinese UI). Data Center and note preview use public samples; the overview uses a demo account. <a href="docs/platform.md">Platform details →</a></sub>
+| Option | 🖱️ Web workbench | 📊 Analysis reports | 🔌 API |
+| :-- | :-- | :-- | :-- |
+| **Best for** | Operations, marketing, research | Teams that need conclusions | Developers, data teams |
+| **Code** | Not needed | Not needed | Needed |
+| **Output** | Tables, Excel / CSV, media assets | Comment and video content analysis | JSON for your own systems |
+| **Start** | [Open workbench →](https://galaxysapi.com/platform?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | [Sample report →](https://galaxysapi.com/api/reports/sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | [API docs →](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) |
 
-## ⚖️ DIY crawler vs Galaxy API
+## 💰 Pricing
 
-| | DIY crawler | Galaxy API |
+**Low prices, straight from the source: ¥0.02 per request for common endpoints, failed requests free, no monthly fee.** New accounts get ¥1 free credit. [Full pricing →](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu#pricing)
+
+## ⚖️ Comparison
+
+| Item | DIY crawler | Galaxy API |
 | :-- | :-- | :-- |
+| Upfront cost | Accounts, proxies, servers, dev time | ✅ Sign up and go, ¥1 free credit |
 | Accounts / cookies | Source them yourself, replace when they expire | ✅ Not needed |
 | Proxy IPs | Buy and rotate yourself | ✅ Not needed |
 | Signing / anti-bot | Re-adapt after every platform update | ✅ Handled for you |
 | Failed requests | Still cost you resources | ✅ Not billed |
 | No coding skills | Not usable | ✅ Web workbench |
-| Organizing & analysis | Find another tool | ✅ Data Center + reports |
 
-## ⚡ 30-second start
+## 🖼️ Product interface
+
+[![Galaxy API screenshots: workbench, note search, Data Center, note preview, comment analysis, overview](assets/screenshots/platform-overview.png)](assets/screenshots/platform-overview.png)
+
+<sub>Production platform (Chinese UI). Data Center and note preview use public samples; the overview uses a demo account. <a href="docs/platform.md">Platform details →</a></sub>
+
+## ⚡ Quick start
 
 ```bash
 curl -G 'https://api.galaxysapi.com/api/search_note_v1' \
@@ -132,13 +137,17 @@ node examples/node/call.mjs pgy --user_id YOUR_USER_ID
 
 ## ❓ FAQ
 
-<details><summary><b>How is it billed?</b></summary><br>Per request, and <b>only successful requests are charged</b>. Workbench tasks count the pages actually requested and stop billing when a task ends early; analysis reports are ordered separately. <a href="https://galaxysapi.com/docs/billing?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu">Billing →</a></details>
+<details><summary><b>How do I top up? Is there a minimum spend?</b></summary><br>No monthly fee or plan — you pay for what you use. New accounts get ¥1 free credit, and online top-ups start at ¥10. Workbench tasks are charged by pages actually requested and stop billing when a task ends early.</details>
 
 <details><summary><b>Are reports generated automatically?</b></summary><br>No. After you submit data and confirm the order, analysts process and review the report before delivery. Comment analysis currently focuses on Xiaohongshu beauty and personal care; video content analysis supports Xiaohongshu video voice-overs.</details>
 
 <details><summary><b>What can the data be used for?</b></summary><br>Only publicly visible data is provided, for content research, competitor analysis, reputation monitoring, product selection and creator evaluation. Follow platform rules and applicable laws; do not infringe personal privacy.</details>
 
----
+<br>
+
+<p align="center">
+  <a href="https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cta.en-dark.svg"><img src="assets/cta.en.svg" alt="Get CNY 1 free credit on sign-up, about 50 requests · Sign up free" width="100%"></picture></a>
+</p>
 
 <p align="center">
   <a href="https://galaxysapi.com/guides/xiaohongshu-comment-collection?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu">Comment collection</a> ·
@@ -146,7 +155,5 @@ node examples/node/call.mjs pgy --user_id YOUR_USER_ID
   <a href="https://galaxysapi.com/guides/xiaohongshu-comment-analysis?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu">Comment analysis</a> ·
   <a href="https://galaxysapi.com/guides/xiaohongshu-api-integration?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu">API integration</a> ·
   <a href="https://github.com/luckfexuanxuan-code/galaxyapi/issues">Open an Issue</a>
-  <br><sub>Guides are in Chinese.</sub>
+  <br><sub>Guides are in Chinese · Example code under the <a href="LICENSE">MIT</a> license · Platform services billed per <a href="https://galaxysapi.com/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu">galaxysapi.com</a> rules</sub>
 </p>
-
-<p align="center"><sub>Example code under the <a href="LICENSE">MIT</a> license · Platform services billed per <a href="https://galaxysapi.com/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu">galaxysapi.com</a> rules</sub></p>
