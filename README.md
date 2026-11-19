@@ -14,6 +14,12 @@
   <a href="https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><img src="https://img.shields.io/badge/API_文档-0969da?style=for-the-badge" alt="API 文档"></a>
 </p>
 
+## 🖼️ 产品界面
+
+[![Galaxy API 平台截图：采集工作台、笔记搜索、数据中心、笔记预览、评论分析、概览](assets/screenshots/platform-overview.png)](assets/screenshots/platform-overview.png)
+
+<sub>数据中心与笔记预览为平台公开示例，概览为演示账号。<a href="docs/platform.md">平台功能详解 →</a></sub>
+
 ## 📦 功能支持
 
 **4** 个平台 · **17** 个免代码采集工具 · **49** 个 API 接口 · **2** 类分析报告
@@ -70,12 +76,6 @@
 | 签名 / 风控 | 平台一更新就要重新适配 | ✅ 平台处理 |
 | 失败请求 | 照样消耗资源 | ✅ 不计费 |
 | 不会写代码 | 用不了 | ✅ 网页工作台 |
-
-## 🖼️ 产品界面
-
-[![Galaxy API 平台截图：采集工作台、笔记搜索、数据中心、笔记预览、评论分析、概览](assets/screenshots/platform-overview.png)](assets/screenshots/platform-overview.png)
-
-<sub>数据中心与笔记预览为平台公开示例，概览为演示账号。<a href="docs/platform.md">平台功能详解 →</a></sub>
 
 ## ⚡ 快速开始
 
