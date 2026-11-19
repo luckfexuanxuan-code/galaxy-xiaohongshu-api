@@ -1,105 +1,152 @@
-<p align="center"><img src="assets/banner.svg" alt="Galaxy API — Media Data Collection and Analysis Platform" width="100%"></p>
+<p align="center">
+  <a href="https://galaxysapi.com/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><img src="assets/banner.en.svg" alt="Galaxy API media data collection and analysis platform" width="100%"></a>
+</p>
 
-# Galaxy API — Media Data Collection and Analysis Platform
+<p align="center">
+  <a href="README.md">简体中文</a> · <b>English</b>
+</p>
 
-**Collect media data, organize results, and understand audience feedback and content performance.**
+<p align="center">
+  <b>Collect, organize and analyze Xiaohongshu (RedNote) and Douyin data in bulk — no code required.</b>
+</p>
 
-Galaxy API is a media data collection and analysis platform for content teams, brand researchers and developers. Create collection tasks from keywords, note links or user profiles in the web workbench, then preview, filter, merge and export the results in Data Center.
+<p align="center">
+  <a href="https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><img src="https://img.shields.io/badge/Sign_up_free-7c3aed?style=for-the-badge" alt="Sign up free"></a>
+  <a href="https://galaxysapi.com/platform?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><img src="https://img.shields.io/badge/Open_workbench-1e1145?style=for-the-badge" alt="Open workbench"></a>
+  <a href="https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><img src="https://img.shields.io/badge/API_docs-ede9fe?style=for-the-badge" alt="API docs"></a>
+</p>
 
-The platform supports note searches, comment collection, creator works and user profiles. Export results to Excel or CSV, and submit comment or video content analysis requests as needed. This repository focuses on Xiaohongshu (小红书 / RedNote / XHS) use cases, with platform features, screenshots, practical guides and API integration examples.
+## 📦 What you can collect
 
-**[Open the workbench](https://galaxysapi.com/platform?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)** · **[API documentation](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)** · **[Create an account](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)** · [简体中文](README.md)
+**4** platforms · **17** no-code tools · **49** API endpoints · **2** types of analysis reports
 
-## Platform features
+| Platform | Keyword search | Content detail | Comments · replies | User profile | Posts | Followers | Products | Creator metrics |
+| :-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| **Xiaohongshu** | ✅ | ✅ | ✅ | ✅ | ✅ | 🔌 | ✅ | ➖ |
+| **Xiaohongshu Pugongying** | 🔌 | 🔌 | ➖ | 🔌 | 🔌 | 🔌 | ➖ | 🔌 |
+| **Douyin** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ➖ | ➖ |
+| **Bilibili** | 🔌 | 🔌 | 🔌 | 🔌 | 🔌 | ➖ | ➖ | ➖ |
 
-| Module | What you can do |
-| --- | --- |
-| Collection workbench | Enter keywords, note links or user profiles in a form and configure a batch collection task |
-| Task progress | Track progress, record counts and status; keep following active tasks while navigating between pages |
-| Data Center | Find tasks by type, name or date and preview collected records |
-| Data preparation | Search across a task, filter by keywords, numeric values and dates, sort, merge tasks of the same type and deduplicate by selected fields |
-| Export and media | Export CSV/XLSX; preview images and videos and download archived media for supported tasks |
-| Comment analysis | Submit task data or local files for analysis of audience concerns, purchase signals, objections, competitor mentions and individual posts |
-| Video content analysis | Submit Xiaohongshu video links for transcript-based analysis of hooks, storylines, product placement and engagement, with recommendations for the next content brief |
-| Developer access | Use the App, Web and Pugongying APIs; manage API keys and review usage in the console |
+<sub>✅ Web workbench + API　🔌 API only　➖ Not supported yet　|　Pugongying "followers" means follower growth and tags. Full list: <a href="docs/endpoints.md">endpoint catalog</a> (Chinese).</sub>
 
-**Workflow: choose a tool → provide inputs → collect data → preview and organize → export or request analysis.**
+## 🔄 How it works
 
-[Platform guide (Chinese)](docs/platform.md) · [Data Center](https://galaxysapi.com/data?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [Data analysis](https://galaxysapi.com/console/comment-reports?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
+<p align="center"><img src="assets/workflow.en.svg" alt="Workflow: 1 Collect → 2 Organize → 3 Export → 4 Insight; the API delivers the same data to your systems" width="100%"></p>
 
-## Xiaohongshu practical guides
+| | 🖱️ Web workbench | 📊 Analysis reports | 🔌 API |
+| :-- | :-- | :-- | :-- |
+| **For** | Operations, marketing, research | Teams that need conclusions | Developers, data teams |
+| **Code** | Not needed | Not needed | Needed |
+| **You get** | Tables, Excel / CSV, media assets | Comment and video content analysis | JSON for your own systems |
+| **Start** | [Open workbench →](https://galaxysapi.com/platform?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | [Sample report →](https://galaxysapi.com/api/reports/sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | [API docs →](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) |
 
-The following public guides support Chinese and English through the page language selector.
+## 🎯 Who it's for
 
-| Guide | What you will learn |
-| --- | --- |
-| [Comment collection](https://galaxysapi.com/guides/xiaohongshu-comment-collection?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | Prepare note links, configure collection, preview and export comments |
-| [Excel and CSV export](https://galaxysapi.com/guides/xiaohongshu-excel-export?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | Search notes, filter records, merge batches and deduplicate results |
-| [Comment analysis](https://galaxysapi.com/guides/xiaohongshu-comment-analysis?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | Prepare samples, submit reports and study audience concerns and purchase signals |
-| [API integration](https://galaxysapi.com/guides/xiaohongshu-api-integration?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) | Configure API keys, search notes and retrieve details and comments |
+<table>
+  <tr>
+    <td width="33%" valign="top"><b>📝 Content teams</b><br><sub>What is trending in my niche?</sub><br><code>Note search</code> <code>Creator posts</code></td>
+    <td width="33%" valign="top"><b>💬 Brand & marketing</b><br><sub>What do users say about us and rivals?</sub><br><code>Comments</code> <code>Comment analysis</code></td>
+    <td width="33%" valign="top"><b>🛒 E-commerce</b><br><sub>Which products are worth selling?</sub><br><code>Product search</code> <code>Reviews</code></td>
+  </tr>
+  <tr>
+    <td valign="top"><b>🤝 Influencer marketing</b><br><sub>Is this creator worth the budget?</sub><br><code>User profile</code> <code>Pugongying API</code></td>
+    <td valign="top"><b>🎬 Short-video teams</b><br><sub>How are similar videos made?</sub><br><code>Douyin search</code> <code>Content analysis</code></td>
+    <td valign="top"><b>👩‍💻 Developers</b><br><sub>No crawler to maintain</sub><br><code>One API</code> <code>Standard JSON</code></td>
+  </tr>
+</table>
 
-## Feature preview
+## 🖼️ Screenshots
 
-Fresh screenshots from the live platform in the Light theme, arranged in two rows and three columns: collection workbench, note search, Data Center, note preview, comment analysis and account overview. Data Center and note preview use public examples; Overview shows the designated demo account.
+[![Galaxy API screenshots: workbench, note search, Data Center, note preview, comment analysis, overview](assets/screenshots/platform-overview.png)](assets/screenshots/platform-overview.png)
 
-[![Galaxy feature preview: six live-platform screenshots in a two-row, three-column layout](assets/screenshots/platform-overview.png)](assets/screenshots/platform-overview.png)
+<sub>Production platform (Chinese UI). Data Center and note preview use public samples; the overview uses a demo account. <a href="docs/platform.md">Platform details →</a></sub>
 
-[Open the comment analysis report example](https://galaxysapi.com/api/reports/sample?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [Open account overview](https://galaxysapi.com/console/dashboard?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
+## ⚖️ DIY crawler vs Galaxy API
 
-## Xiaohongshu API capabilities
+| | DIY crawler | Galaxy API |
+| :-- | :-- | :-- |
+| Accounts / cookies | Source them yourself, replace when they expire | ✅ Not needed |
+| Proxy IPs | Buy and rotate yourself | ✅ Not needed |
+| Signing / anti-bot | Re-adapt after every platform update | ✅ Handled for you |
+| Failed requests | Still cost you resources | ✅ Not billed |
+| No coding skills | Not usable | ✅ Web workbench |
+| Organizing & analysis | Find another tool | ✅ Data Center + reports |
 
-| Area | Capabilities |
-| --- | --- |
-| Search | Keyword searches, sorting and note-type filters |
-| Notes | Image/video note details, authors and engagement fields |
-| Comments | Top-level comments and replies |
-| Users | Profiles, published notes and user search |
-| Web | Web note details, searches and comments |
-| Pugongying | Creator profiles, performance, growth, notes and audience metrics |
-
-Browse the [endpoint directory](docs/endpoints.md) or the [online documentation](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu).
-
-## API quick start
-
-Create an account, create an API key in the [console](https://galaxysapi.com/console/api-keys?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu), and check your balance and key quota. Pass the full key in the `Authorization` header **without a `Bearer ` prefix**.
+## ⚡ 30-second start
 
 ```bash
-git clone https://github.com/luckfexuanxuan-code/galaxy-xiaohongshu-api.git
-cd galaxy-xiaohongshu-api
-export GALAXY_API_KEY='YOUR_API_KEY'
-
-# Python 3.10+, standard library only
-python3 examples/python/call.py search --keyword coffee
-python3 examples/python/call.py search --keyword coffee --csv output/notes.csv
-python3 examples/python/call.py pgy --user_id YOUR_USER_ID
-
-# Node.js 22+, no npm dependencies
-node examples/node/call.mjs search --keyword coffee
-node examples/node/call.mjs note --note_id YOUR_NOTE_ID
-
-# cURL
-bash examples/curl/search.sh coffee
+curl -G 'https://api.galaxysapi.com/api/search_note_v1' \
+  -H "Authorization: $GALAXY_API_KEY" \
+  --data-urlencode 'keyword=coffee'
 ```
 
-Each command makes one request. There is no automatic retry or pagination. API requests are billed according to the platform's terms; using the example code itself is free.
-
-For an offline preview, no key or network request is needed:
+No key yet? Run the offline demo — no request, no charge:
 
 ```bash
+git clone https://github.com/luckfexuanxuan-code/galaxyapi.git && cd galaxyapi
 python3 examples/python/call.py search --demo --csv output/demo.csv
-node examples/node/call.mjs pgy --demo
 ```
 
-[Commands and parameters](examples/README.md) · [Pagination](docs/quickstart.md) · [Error handling](docs/troubleshooting.md)
+<details>
+<summary>More examples and response format</summary>
 
-## Response examples
+<br>
 
-The [response directory](examples/responses) contains sanitized, shortened excerpts derived from the published documentation. IDs, names and content are demonstration values; these files are not live results. Response structures vary by endpoint. Both clients check HTTP status and top-level business errors before treating a response as successful.
+Create a key on the console [API keys](https://galaxysapi.com/console/api-keys?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) page and put it in the `Authorization` header as-is (no `Bearer ` prefix). The scripts need Python 3.10+ / Node.js 22+ and use the standard library only.
 
-## Get access
+```bash
+export GALAXY_API_KEY='your_api_key'
 
-[Create an account](https://galaxysapi.com/login?mode=register&utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [Read the documentation](https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu) · [Open the console](https://galaxysapi.com/console/dashboard?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu)
+# Search notes and save as CSV
+python3 examples/python/call.py search --keyword coffee --csv output/notes.csv
 
-## Support
+# Note comments / Pugongying creator profile
+python3 examples/python/call.py comments --note_id YOUR_NOTE_ID
+node examples/node/call.mjs pgy --user_id YOUR_USER_ID
+```
 
-Report example-code issues through [Issues](https://github.com/luckfexuanxuan-code/galaxy-xiaohongshu-api/issues). Include the endpoint, time and sanitized error, never API keys or account information. For account and billing questions, use support in the [Galaxy API platform](https://galaxysapi.com/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu).
+```json
+{
+  "code": 200,
+  "message": "成功",
+  "data": {
+    "items": [
+      {
+        "model_type": "note",
+        "note": {
+          "id": "EXAMPLE_NOTE_ID",
+          "title": "Example note title",
+          "liked_count": 381,
+          "comments_count": 95,
+          "collected_count": 348
+        }
+      }
+    ]
+  }
+}
+```
+
+[All examples](examples/README.md) · [Parameters & paging](docs/quickstart.md) · [Troubleshooting](docs/troubleshooting.md) · [Sanitized responses](examples/responses)
+
+</details>
+
+## ❓ FAQ
+
+<details><summary><b>How is it billed?</b></summary><br>Per request, and <b>only successful requests are charged</b>. Workbench tasks count the pages actually requested and stop billing when a task ends early; analysis reports are ordered separately. <a href="https://galaxysapi.com/docs/billing?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu">Billing →</a></details>
+
+<details><summary><b>Are reports generated automatically?</b></summary><br>No. After you submit data and confirm the order, analysts process and review the report before delivery. Comment analysis currently focuses on Xiaohongshu beauty and personal care; video content analysis supports Xiaohongshu video voice-overs.</details>
+
+<details><summary><b>What can the data be used for?</b></summary><br>Only publicly visible data is provided, for content research, competitor analysis, reputation monitoring, product selection and creator evaluation. Follow platform rules and applicable laws; do not infringe personal privacy.</details>
+
+---
+
+<p align="center">
+  <a href="https://galaxysapi.com/guides/xiaohongshu-comment-collection?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu">Comment collection</a> ·
+  <a href="https://galaxysapi.com/guides/xiaohongshu-excel-export?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu">Excel export</a> ·
+  <a href="https://galaxysapi.com/guides/xiaohongshu-comment-analysis?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu">Comment analysis</a> ·
+  <a href="https://galaxysapi.com/guides/xiaohongshu-api-integration?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu">API integration</a> ·
+  <a href="https://github.com/luckfexuanxuan-code/galaxyapi/issues">Open an Issue</a>
+  <br><sub>Guides are in Chinese.</sub>
+</p>
+
+<p align="center"><sub>Example code under the <a href="LICENSE">MIT</a> license · Platform services billed per <a href="https://galaxysapi.com/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu">galaxysapi.com</a> rules</sub></p>

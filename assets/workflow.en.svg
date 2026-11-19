@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="From collection to insight: the Galaxy API workflow">
+<title>From collection to insight: the Galaxy API workflow</title>
+<defs><linearGradient id="n" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#6d28d9"/></linearGradient>
+<linearGradient id="api" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#1e1145"/><stop offset="1" stop-color="#5b21b6"/></linearGradient>
+<marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#a78bfa"/></marker></defs>
+<rect width="1280" height="360" rx="20" fill="#faf8ff" stroke="#e9e3fb"/>
+<g font-family="Inter,'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',Arial,sans-serif">
+<rect x="40" y="36" width="268" height="200" rx="16" fill="#ffffff" stroke="#e4dcfb"/>
+<circle cx="76" cy="76" r="18" fill="url(#n)"/>
+<text x="76" y="83" text-anchor="middle" font-size="19" font-weight="800" fill="#ffffff">1</text>
+<text x="106" y="84" font-size="24" font-weight="800" fill="#1f1147">Collect</text>
+<text x="62" y="128" font-size="15" fill="#6b6489">Keywords / links / profiles</text>
+<rect x="58" y="148" width="232" height="30" rx="15" fill="#f3effe" fill-opacity="1"/>
+<text x="174.0" y="169" text-anchor="middle" font-size="14" font-weight="600" fill="#5b21b6">17 collection tools</text>
+<rect x="58" y="188" width="232" height="30" rx="15" fill="#f3effe" fill-opacity="1"/>
+<text x="174.0" y="209" text-anchor="middle" font-size="14" font-weight="600" fill="#5b21b6">Bulk tasks · live progress</text>
+<line x1="312" y1="136.0" x2="338" y2="136.0" stroke="#a78bfa" stroke-width="3" marker-end="url(#a)"/>
+<rect x="344" y="36" width="268" height="200" rx="16" fill="#ffffff" stroke="#e4dcfb"/>
+<circle cx="380" cy="76" r="18" fill="url(#n)"/>
+<text x="380" y="83" text-anchor="middle" font-size="19" font-weight="800" fill="#ffffff">2</text>
+<text x="410" y="84" font-size="24" font-weight="800" fill="#1f1147">Organize</text>
+<text x="366" y="128" font-size="15" fill="#6b6489">Data Center</text>
+<rect x="362" y="148" width="232" height="30" rx="15" fill="#f3effe" fill-opacity="1"/>
+<text x="478.0" y="169" text-anchor="middle" font-size="14" font-weight="600" fill="#5b21b6">Preview · filter · sort</text>
+<rect x="362" y="188" width="232" height="30" rx="15" fill="#f3effe" fill-opacity="1"/>
+<text x="478.0" y="209" text-anchor="middle" font-size="14" font-weight="600" fill="#5b21b6">Merge · de-duplicate</text>
+<line x1="616" y1="136.0" x2="642" y2="136.0" stroke="#a78bfa" stroke-width="3" marker-end="url(#a)"/>
+<rect x="648" y="36" width="268" height="200" rx="16" fill="#ffffff" stroke="#e4dcfb"/>
+<circle cx="684" cy="76" r="18" fill="url(#n)"/>
+<text x="684" y="83" text-anchor="middle" font-size="19" font-weight="800" fill="#ffffff">3</text>
+<text x="714" y="84" font-size="24" font-weight="800" fill="#1f1147">Export</text>
+<text x="670" y="128" font-size="15" fill="#6b6489">One-click download</text>
+<rect x="666" y="148" width="232" height="30" rx="15" fill="#f3effe" fill-opacity="1"/>
+<text x="782.0" y="169" text-anchor="middle" font-size="14" font-weight="600" fill="#5b21b6">Excel · CSV</text>
+<rect x="666" y="188" width="232" height="30" rx="15" fill="#f3effe" fill-opacity="1"/>
+<text x="782.0" y="209" text-anchor="middle" font-size="14" font-weight="600" fill="#5b21b6">Image / video assets</text>
+<line x1="920" y1="136.0" x2="946" y2="136.0" stroke="#a78bfa" stroke-width="3" marker-end="url(#a)"/>
+<rect x="952" y="36" width="268" height="200" rx="16" fill="#7c3aed" stroke="#7c3aed"/>
+<circle cx="988" cy="76" r="18" fill="#ffffff"/>
+<text x="988" y="83" text-anchor="middle" font-size="19" font-weight="800" fill="#7c3aed">4</text>
+<text x="1018" y="84" font-size="24" font-weight="800" fill="#ffffff">Insight</text>
+<text x="974" y="128" font-size="15" fill="#ede9fe">Analysis reports</text>
+<rect x="970" y="148" width="232" height="30" rx="15" fill="#ffffff" fill-opacity=".18"/>
+<text x="1086.0" y="169" text-anchor="middle" font-size="14" font-weight="600" fill="#ffffff">Comments · content</text>
+<rect x="970" y="188" width="232" height="30" rx="15" fill="#ffffff" fill-opacity=".18"/>
+<text x="1086.0" y="209" text-anchor="middle" font-size="14" font-weight="600" fill="#ffffff">Reviewed by analysts</text>
+<rect x="40" y="264" width="1200" height="64" rx="16" fill="url(#api)"/>
+<rect x="58" y="280" width="74" height="32" rx="16" fill="#ffffff"/>
+<text x="95" y="302" text-anchor="middle" font-size="17" font-weight="800" fill="#6d28d9">API</text>
+<text x="152" y="304" font-size="17" fill="#ffffff">The same data in your systems, BI or data warehouse with one key</text>
+<text x="1222" y="303" text-anchor="end" font-size="15" fill="#c4b5fd">api.galaxysapi.com</text>
+</g></svg>
