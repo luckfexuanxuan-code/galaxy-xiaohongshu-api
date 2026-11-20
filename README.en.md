@@ -18,8 +18,6 @@
 
 [![Galaxy API screenshots: workbench, Data Center, note preview, API test, comment analysis, overview](assets/screenshots/platform-overview.png)](assets/screenshots/platform-overview.png)
 
-<sub>Production platform (Chinese UI). Data Center and note preview use public samples; the overview uses a demo account. <a href="docs/platform.md">Platform details →</a></sub>
-
 ## 📦 Supported features
 
 **4** platforms · **17** no-code tools · **49** API endpoints · **2** types of analysis reports
