@@ -32,7 +32,7 @@
 <rect x="664" y="174" width="234" height="30" rx="6" fill="#151b23" stroke="#3d444d"/>
 <text x="781.0" y="195" text-anchor="middle" font-size="14" fill="#f0f6fc">Image / video assets</text>
 <line x1="920" y1="127.0" x2="943" y2="127.0" stroke="#656c76" stroke-width="2" marker-end="url(#a)"/>
-<rect x="949" y="32" width="270" height="190" rx="10" fill="#0d1117" stroke="#4493f8" stroke-width="2"/>
+<rect x="949" y="32" width="270" height="190" rx="10" fill="#0d1117" stroke="#3d444d" stroke-width="1"/>
 <circle cx="985" cy="70" r="16" fill="#4493f8"/>
 <text x="985" y="76" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">4</text>
 <text x="1013" y="78" font-size="23" font-weight="700" fill="#f0f6fc">Insight</text>
