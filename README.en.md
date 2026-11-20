@@ -34,12 +34,10 @@
 
 | Platform | Keyword search | Content detail | Comments · replies | User profile | Posts | Followers | Products | Creator metrics |
 | :-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| **Xiaohongshu** | ✅ | ✅ | ✅ | ✅ | ✅ | 🔌 | ✅ | ➖ |
-| **Xiaohongshu Pugongying** | 🔌 | 🔌 | ➖ | 🔌 | 🔌 | 🔌 | ➖ | 🔌 |
+| **Xiaohongshu** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ➖ |
+| **Xiaohongshu Pugongying** | ✅ | ✅ | ➖ | ✅ | ✅ | ✅ | ➖ | ✅ |
 | **Douyin** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ➖ | ➖ |
-| **Bilibili** | 🔌 | 🔌 | 🔌 | 🔌 | 🔌 | ➖ | ➖ | ➖ |
-
-<sub>✅ Web workbench + API　🔌 API only　➖ Not supported yet　|　Pugongying "followers" means follower growth and tags. Full list: <a href="docs/endpoints.md">endpoint catalog</a> (Chinese).</sub>
+| **Bilibili** | ✅ | ✅ | ✅ | ✅ | ✅ | ➖ | ➖ | ➖ |
 
 ## 🎯 Use cases
 
