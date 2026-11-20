@@ -43,14 +43,16 @@
 
 <table>
   <tr>
-    <td width="33%" valign="top"><b>📝 内容运营</b><br><sub>这个赛道什么内容在爆？</sub><br><code>笔记搜索</code> <code>博主发帖</code></td>
-    <td width="33%" valign="top"><b>💬 品牌市场</b><br><sub>用户怎么评价我和竞品？</sub><br><code>评论采集</code> <code>评论分析</code></td>
-    <td width="33%" valign="top"><b>🛒 电商选品</b><br><sub>哪些商品值得做？</sub><br><code>商品搜索</code> <code>商品评论</code></td>
+    <td width="25%" valign="top"><b>📝 内容运营</b><br><sub>这个赛道什么内容在爆？</sub><br><code>笔记搜索</code> <code>博主发帖</code></td>
+    <td width="25%" valign="top"><b>💬 品牌市场</b><br><sub>用户怎么评价我和竞品？</sub><br><code>评论采集</code> <code>评论分析</code></td>
+    <td width="25%" valign="top"><b>🛒 电商选品</b><br><sub>哪些商品值得做？</sub><br><code>商品搜索</code> <code>商品评论</code></td>
+    <td width="25%" valign="top"><b>🤝 达人投放</b><br><sub>这个达人值不值得投？</sub><br><code>用户信息</code> <code>蒲公英 API</code></td>
   </tr>
   <tr>
-    <td valign="top"><b>🤝 达人投放</b><br><sub>这个达人值不值得投？</sub><br><code>用户信息</code> <code>蒲公英 API</code></td>
     <td valign="top"><b>🎬 短视频团队</b><br><sub>同类视频是怎么做的？</sub><br><code>抖音搜索</code> <code>内容分析</code></td>
     <td valign="top"><b>👩‍💻 开发者</b><br><sub>不想自己维护爬虫</sub><br><code>统一 API</code> <code>标准 JSON</code></td>
+    <td valign="top"><b>🧠 模型训练</b><br><sub>需要大量真实的中文语料？</sub><br><code>笔记 · 评论语料</code> <code>批量 API</code></td>
+    <td valign="top"><b>⚗️ 数据蒸馏</b><br><sub>从海量内容中筛出高质量样本</sub><br><code>去重合并</code> <code>字段筛选</code></td>
   </tr>
 </table>
 

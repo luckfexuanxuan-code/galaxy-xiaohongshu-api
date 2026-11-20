@@ -43,14 +43,16 @@
 
 <table>
   <tr>
-    <td width="33%" valign="top"><b>📝 Content teams</b><br><sub>What is trending in my niche?</sub><br><code>Note search</code> <code>Creator posts</code></td>
-    <td width="33%" valign="top"><b>💬 Brand & marketing</b><br><sub>What do users say about us and rivals?</sub><br><code>Comments</code> <code>Comment analysis</code></td>
-    <td width="33%" valign="top"><b>🛒 E-commerce</b><br><sub>Which products are worth selling?</sub><br><code>Product search</code> <code>Reviews</code></td>
+    <td width="25%" valign="top"><b>📝 Content teams</b><br><sub>What is trending in my niche?</sub><br><code>Note search</code> <code>Creator posts</code></td>
+    <td width="25%" valign="top"><b>💬 Brand & marketing</b><br><sub>What do users say about us and rivals?</sub><br><code>Comments</code> <code>Comment analysis</code></td>
+    <td width="25%" valign="top"><b>🛒 E-commerce</b><br><sub>Which products are worth selling?</sub><br><code>Product search</code> <code>Reviews</code></td>
+    <td width="25%" valign="top"><b>🤝 Influencer marketing</b><br><sub>Is this creator worth the budget?</sub><br><code>User profile</code> <code>Pugongying API</code></td>
   </tr>
   <tr>
-    <td valign="top"><b>🤝 Influencer marketing</b><br><sub>Is this creator worth the budget?</sub><br><code>User profile</code> <code>Pugongying API</code></td>
     <td valign="top"><b>🎬 Short-video teams</b><br><sub>How are similar videos made?</sub><br><code>Douyin search</code> <code>Content analysis</code></td>
     <td valign="top"><b>👩‍💻 Developers</b><br><sub>No crawler to maintain</sub><br><code>One API</code> <code>Standard JSON</code></td>
+    <td valign="top"><b>🧠 Model training</b><br><sub>Need large real-world Chinese corpora?</sub><br><code>Note & comment corpora</code> <code>Bulk API</code></td>
+    <td valign="top"><b>⚗️ Data distillation</b><br><sub>Filter high-quality samples at scale</sub><br><code>Dedupe & merge</code> <code>Field filters</code></td>
   </tr>
 </table>
 
