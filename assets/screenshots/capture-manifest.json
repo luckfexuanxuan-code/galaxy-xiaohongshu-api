@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-11-11T02:51:13.024Z",
+  "capturedAt": "2026-11-20T02:37:48.944Z",
   "source": "https://galaxysapi.com",
   "theme": "light",
   "viewport": {
@@ -11,49 +11,54 @@
     "columns": 3
   },
   "image": "platform-overview.png",
-  "sourceData": "Platform public examples and the explicitly designated real demo account for Overview; no mocked business responses.",
+  "sourceData": "Platform public examples, the explicitly designated real demo account for Overview, and a supplied API Test screenshot; no mocked business responses.",
   "panels": [
     {
       "file": "01-workbench.png",
       "title": "采集工作台",
       "description": "按平台与场景选择采集工具",
       "url": "https://galaxysapi.com/platform",
-      "pageTitle": "工作台"
+      "pageTitle": "工作台",
+      "capturedAt": "2026-11-11T02:51:13.024Z"
     },
     {
-      "file": "02-collection.png",
-      "title": "笔记搜索",
-      "description": "批量关键词与采集参数配置",
-      "url": "https://galaxysapi.com/platform/search",
-      "pageTitle": "小红书笔记搜索"
-    },
-    {
-      "file": "03-data-center.png",
+      "file": "02-data-center.png",
       "title": "数据中心",
       "description": "集中管理、筛选与导出采集结果",
       "url": "https://galaxysapi.com/data?date=all",
-      "pageTitle": "数据中心"
+      "pageTitle": "数据中心",
+      "capturedAt": "2026-11-11T02:51:13.024Z"
     },
     {
-      "file": "04-data-preview.png",
+      "file": "03-data-preview.png",
       "title": "笔记预览",
       "description": "左图右文，查看正文与互动数据",
       "url": "https://galaxysapi.com/data?taskId=sample_detail",
-      "pageTitle": "数据中心"
+      "pageTitle": "数据中心",
+      "capturedAt": "2026-11-11T02:51:13.024Z"
+    },
+    {
+      "file": "04-api-test.png",
+      "title": "API 测试",
+      "description": "在线调试接口，一键生成多语言示例代码",
+      "source": "supplied screenshot",
+      "capturedAt": "2026-11-20T00:00:00.000Z"
     },
     {
       "file": "05-comment-report.png",
       "title": "评论分析",
       "description": "从评论中发现用户关注点与购买信号",
       "url": "https://galaxysapi.com/api/reports/sample#s0",
-      "pageTitle": "雅诗兰黛智妍 · 小红书评论区深度分析"
+      "pageTitle": "雅诗兰黛智妍 · 小红书评论区深度分析",
+      "capturedAt": "2026-11-11T02:51:13.024Z"
     },
     {
       "file": "06-overview.png",
       "title": "概览",
       "description": "查看使用概况、热门接口与活跃度",
       "url": "https://galaxysapi.com/console/dashboard",
-      "pageTitle": "控制台"
+      "pageTitle": "控制台",
+      "capturedAt": "2026-11-11T02:51:13.024Z"
     }
   ],
   "blockedMutationPaths": []

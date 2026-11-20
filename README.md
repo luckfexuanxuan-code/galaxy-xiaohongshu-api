@@ -16,7 +16,7 @@
 
 ## 🖼️ 产品界面
 
-[![Galaxy API 平台截图：采集工作台、笔记搜索、数据中心、笔记预览、评论分析、概览](assets/screenshots/platform-overview.png)](assets/screenshots/platform-overview.png)
+[![Galaxy API 平台截图：采集工作台、数据中心、笔记预览、API 测试、评论分析、概览](assets/screenshots/platform-overview.png)](assets/screenshots/platform-overview.png)
 
 <sub>数据中心与笔记预览为平台公开示例，概览为演示账号。<a href="docs/platform.md">平台功能详解 →</a></sub>
 
