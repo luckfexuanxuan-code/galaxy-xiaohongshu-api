@@ -1,10 +1,6 @@
 <h1 align="center">Galaxy API · Media Data Collection & Analysis</h1>
 
 <p align="center">
-  Collect, organize and analyze Xiaohongshu (RedNote) and Douyin data in bulk — no code required.
-</p>
-
-<p align="center">
   <a href="README.md">简体中文</a> · <b>English</b>
 </p>
 

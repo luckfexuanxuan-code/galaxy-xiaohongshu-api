@@ -1,10 +1,6 @@
 <h1 align="center">Galaxy API · 自媒体数据采集分析平台</h1>
 
 <p align="center">
-  小红书、抖音数据，不写代码也能批量采集、整理、分析。
-</p>
-
-<p align="center">
   <b>简体中文</b> · <a href="README.en.md">English</a>
 </p>
 
