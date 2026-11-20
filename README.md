@@ -158,4 +158,4 @@ node examples/node/call.mjs pgy --user_id YOUR_USER_ID
   <br><sub>示例代码基于 <a href="LICENSE">MIT</a> 许可开源 · 平台服务按 <a href="https://galaxysapi.com/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu">galaxysapi.com</a> 规则计费</sub>
 </p>
 
-最后更新：2026-11-19
+最后更新：2026-11-20
