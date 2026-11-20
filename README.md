@@ -14,6 +14,20 @@
   <a href="https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><img src="https://img.shields.io/badge/API_文档-0969da?style=for-the-badge" alt="API 文档"></a>
 </p>
 
+<table align="center">
+  <tr>
+    <td align="center" width="120"><b>2 年+</b><br><sub>稳定运行</sub></td>
+    <td align="center" width="120"><b>1 万+</b><br><sub>服务客户</sub></td>
+    <td align="center" width="120"><b>成功率高</b><br><sub>&gt;99%</sub></td>
+    <td align="center" width="120"><b>响应快</b><br><sub>实时数据</sub></td>
+    <td align="center" width="120"><b>低于市场价</b><br><sub>按次计费</sub></td>
+  </tr>
+</table>
+
+<p align="center">
+  广泛应用于 <code>获客</code> <code>电商</code> <code>营销</code> <code>模型训练</code> <code>数据库构建</code>，为用户提供高品质、低成本的数据服务。
+</p>
+
 ## 🖼️ 产品界面
 
 [![Galaxy API 平台截图：采集工作台、数据中心、笔记预览、API 测试、评论分析、概览](assets/screenshots/platform-overview.png)](assets/screenshots/platform-overview.png)

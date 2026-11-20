@@ -14,6 +14,20 @@
   <a href="https://galaxysapi.com/api-docs/?utm_source=github&utm_medium=readme&utm_campaign=xiaohongshu"><img src="https://img.shields.io/badge/API_docs-0969da?style=for-the-badge" alt="API docs"></a>
 </p>
 
+<table align="center">
+  <tr>
+    <td align="center" width="120"><b>2+ years</b><br><sub>Stable operation</sub></td>
+    <td align="center" width="120"><b>10,000+</b><br><sub>Customers served</sub></td>
+    <td align="center" width="120"><b>High success rate</b><br><sub>&gt;99%</sub></td>
+    <td align="center" width="120"><b>Fast</b><br><sub>Real-time data</sub></td>
+    <td align="center" width="120"><b>Below market price</b><br><sub>Pay per request</sub></td>
+  </tr>
+</table>
+
+<p align="center">
+  Widely used for <code>lead generation</code> <code>e-commerce</code> <code>marketing</code> <code>model training</code> <code>database building</code> — high-quality data at low cost.
+</p>
+
 ## 🖼️ Product interface
 
 [![Galaxy API screenshots: workbench, Data Center, note preview, API test, comment analysis, overview](assets/screenshots/platform-overview.png)](assets/screenshots/platform-overview.png)
